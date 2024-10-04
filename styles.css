@@ -6,3 +6,9 @@ table,th,td{
     border-collapse: collapse;
     text-align: left;
 } 
+a{
+    color: black
+    text-decoration: underline;
+    text-decoration-color: yellow;
+
+}
