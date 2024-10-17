@@ -16,6 +16,50 @@ caption{
 
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgba(153, 205, 50, 0.255);
+    border: 1px solid green;
+    cursor: pointer;
+    outline: none;
+}
+.modal{
+    position: fixed;
+    height: 100vh;
+    width:100%;
+    z-index: 1000;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.7) ;
+    /*opacity: 0;
+    visibility: hidden;*/
+    transition: all 0.5s;
+}
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+
+
+
+
 table, td, th{
     border-collapse: collapse;
     margin: 25px 0;
