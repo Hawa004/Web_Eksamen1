@@ -29,16 +29,34 @@ caption{
     display:flex;
     /*justify-content: center;*/
     align-items: center;
-    height: 20vh;
+    padding: 10px;
+    width: 225px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(153, 205, 50, 0.138);
 }
+.start{
+    width: 225px;
+    height: 50px;
+    display:flex;
+    
+    align-items: center;
+    padding: 10px;
+}
+.img1{
+    height: 45px;
+    display: flex;
+    
+}
+
 .btn{
-    padding: 10px 16px;
+    padding: 10px 1px;
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
     /*border-radius: 10px;*/
     /*background-color: rgba(153, 205, 50, 0.255);*/
-    border-bottom: 1px solid rgba(0, 0, 0, 0.149);
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0.149);*/
     cursor: pointer;
     outline: none;
 }
@@ -96,6 +114,7 @@ caption{
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
 }
+
 
 
 
