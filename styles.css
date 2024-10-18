@@ -16,36 +16,31 @@ caption{
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .main{
     display:flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
-    height: 100vh;
+    height: 20vh;
 }
 .btn{
     padding: 10px 16px;
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
-    border-radius: 5px;
-    background-color: rgba(153, 205, 50, 0.255);
-    border: 1px solid green;
+    /*border-radius: 10px;*/
+    /*background-color: rgba(153, 205, 50, 0.255);*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.149);
     cursor: pointer;
     outline: none;
 }
 .modal{
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width:100%;
     z-index: 1000;
     top:0;
     left:0;
-    background-color:rgba(0,0,0,0.7) ;
+    background-color:rgba(0, 0, 0, 0.562) ;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
@@ -54,19 +49,19 @@ caption{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)scale(0.25);
-    width: 80vw;
+    transform: translate(-50%,-50%) scale(0.25);
+    width: 55vw;
     height: 80vh;
     box-shadow: 0 2rem 4rem regba(0,0,0,0.2);
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     opacity: 0;
-    transition: all 0.5s 0.2s ;
+    transition: all 0.3s 0.3s ;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-y:scroll !important ;
 }
 .close,
 .close:link,
@@ -79,7 +74,7 @@ caption{
     font-size: 2rem;
     display: inline-block;
     line-height: 1;
-    transition: all 0 0.2s;
+    transition: all 0 0.3s;
 }
 .close:hover{
     color: rgba(153, 205, 50, 0.682);
