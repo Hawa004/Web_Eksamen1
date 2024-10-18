@@ -6,6 +6,15 @@ body {
     margin:auto;
 }
 
+/*
+.oppbygning{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}
+    */
+
 
 caption{
     text-align:right;
@@ -16,7 +25,7 @@ caption{
 
 
 
-.main{
+.oppbygging{
     display:flex;
     /*justify-content: center;*/
     align-items: center;
@@ -50,9 +59,9 @@ caption{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0.25);
-    width: 55vw;
+    width: 60vw;
     height: 80vh;
-    box-shadow: 0 2rem 4rem regba(0,0,0,0.2);
+    box-shadow: 0 2rem 4rem regba(0 ,0 ,0 , 0.2);
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
