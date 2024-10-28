@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width,initial-scale=1">
+        <title> Matematisk modellering og datavitenskap - ingeniør</title>
+        <link rel="stylesheet" href="Spmstyle.css">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!--Hamburger menu-->
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler" >
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="https://www.oslomet.no/studier">Studier</a></li>
+                        <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
+                        <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
+                        <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
+                        <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
+                        <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
+                        <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <label for="vinduPopup" class="spørsmål-knapp">
+            Spørsmål <!--trenger også en ? icon-->
+            <i class="fa-sharp-duotone fa-solid fa-circle-question fa-beat"></i>
+        </label>
+        <input type="checkbox" id="vinduPopup" class="vindu-popup">
+
+        <div class="tilbakemelding-popup">
+            <div class="popup-innhold">
+                <h2>Spørsmål?</h2>
+                <div class ="tilbakemelding-icon">
+                    <input type="checkbox" id="thumbs-up"  class="thumbs-checkbox thumbs-up">
+                    <label for="thumbs-up" class="fa-solid fa-thumbs-up"></label>
+
+                    <input type="checkbox" id="thumbs-down" class="thumbs-checkbox thumbs-down">
+                    <label for="thumbs-down" class="fa-solid fa-thumbs-down"></label>
+                </div>
+                <p>NB! ikke legg igjen personlig info</p>
+                <p>Hendvendelser blir ikke svart.</p>
+                <textarea placeholder="Hva lurer du på? Skriv her."></textarea>
+                <button class="send-knapp">Send inn</button>
+                <label for="vinduPopup" class="lukke-link">Ikke vis dette igjen</label>
+            </div>
+            <label for="vinduPopup" class="lukke-knapp"><i class="fa-solid fa-xmark"></i> Lukk</label>
+            </div>
+
+            
+                
+            
+            
+    </body>
+
+</html>
