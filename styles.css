@@ -11,6 +11,7 @@ body {
     background-color: #fff;
     padding-top: 20px; 
     
+    
 }
 
 
@@ -82,11 +83,20 @@ body {
     width: 20%;
 }
 
+.body {
+    max-width: 1150px;
+    margin: auto;
+    /*padding: 10px;*/
+    align-items: center;
+
+}
+
 
 
 .header-title {
     padding-left: 100px; 
     text-align: left; 
+    
 }
 
 
