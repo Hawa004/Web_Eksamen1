@@ -15,7 +15,6 @@
 
 /* Hamburger menu styles */
 .menu-wrap {
-    position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -91,6 +90,7 @@
 .menu-wrap .toggler:checked + .hamburger > div:after {
    top: 0;
    transform: rotate(90deg);
+   
    
 }
 
