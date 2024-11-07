@@ -146,5 +146,38 @@ h1 {
     text-align: left;           
 
 }
+
+.Profil {
+    display: flex;
+    align-items: center;
+    background-color: rgba(223, 233, 211, 0.96);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Profil img {
+  width: 125px;
+  height: 135px;
+  border-radius: 50%; 
+  margin-right: 20px;
+}
+
+.Profil p {
+  font-size: 1em;
+  color: #292525;
+  margin: 5px 0;
+}
+
+.Profil a{
+  color: #333;
+  text-decoration: underline;
+  font-weight: bold;
+  
+    
+  }
+
+
+
  
 
