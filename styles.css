@@ -173,6 +173,7 @@ h1 {
 .beskrivelse{
     background-color: #f3ecad69;
     max-width: 960px;
+    max-height: none;
     height: auto;
     margin: auto;
     margin-bottom: 20px;
@@ -181,21 +182,19 @@ h1 {
     
 }
 .box2{
-    display: flex;
     max-width: 960px;
-    max-height: 120px;
+    max-height: none;
     width: auto;
     height: auto;
     margin: auto;
     padding: 5px;
-    align-items: center;
-    flex-wrap: nowrap wrap wrap-reverse;
-    
 }
 
 
 
+
 .besk{
+    flex-wrap: wrap;
     display: flex;
     padding: 20px;
     align-items: center;
@@ -214,7 +213,7 @@ h1 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.18); 
     width: 160px;
     text-align: left;
-    
+    display: flex;
 }
 
 
