@@ -9,16 +9,20 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
-    padding-top: 20px; 
-    
-    
+    padding-top: 20px;  
+}
+.text{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+
 }
 
 p , h3{
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px;
+    margin-left: none;
+    margin-right: none;
+    
 }
 
 h1 {
@@ -185,8 +189,8 @@ h1 {
     margin: auto;
     padding: 5px;
     align-items: center;
-    /*flex-wrap:;
-    gap: 20px;*/
+    flex-wrap: nowrap wrap wrap-reverse;
+    
 }
 
 
@@ -318,6 +322,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     overflow-y:scroll !important;
+    padding: 30px;
 }
 .close, .close:link, .close:visited{
     color: #ccc;
@@ -385,4 +390,6 @@ a:hover{
     text-decoration-color: black;
 }
 
+
+/*     */
 
