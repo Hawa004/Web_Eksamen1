@@ -146,10 +146,10 @@ h1 {
 
 
 .KortInfo {
-    width: 100%;               /* Gjør tabellen bred */
-    border-collapse: collapse;  /* Fjerner mellomrom mellom kantlinjene */
-    margin: 90px ;             /* Avstand mellom tabellen og annet innhold */
-    font-family: Arial, sans-serif; /* Setter fontfamilie */
+    width: 100%;               
+    border-collapse: collapse;  
+    margin: 90px ;             
+    font-family: Arial, sans-serif; 
     border: 2px;
   padding: 10px;
   border-radius: 25px;
@@ -162,7 +162,7 @@ h1 {
 }
 .KortInfo th,.KortInfo td {
     padding: 10px;  
-    text-align: left;           /* Venstrejustering av teksten */
+    text-align: left;           
 
 }
 
