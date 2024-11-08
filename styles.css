@@ -15,7 +15,7 @@ body {
 }
 
 p , h3{
-    text-align: center;
+    text-align: left;
     margin-left: 20px;
     margin-right: 20px;
     padding: 15px;
@@ -198,6 +198,7 @@ h1 {
     margin: auto;
     max-width: 240px;
     width: auto;
+    text-align: left;
 }
 
 .stikkers{
@@ -208,6 +209,7 @@ h1 {
 .undertext{
     border-bottom: 1px solid rgba(0, 0, 0, 0.18); 
     width: 160px;
+    text-align: left;
     
 }
 
