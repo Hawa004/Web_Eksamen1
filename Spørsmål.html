@@ -13,10 +13,10 @@
     <body>
 
         <!--Hamburger menu-->
-    <div class="menu-wrap">
+    <section class="menu-container">
         <input type="checkbox" class="toggler" >
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
+        <div class="burger-icon"><div></div></div>
+        <nav class="menu">
             <div>
                 <div>
                     <ul>
@@ -30,17 +30,18 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
+        </nav>
+    </section>
 
 
 <!--Studenthistorier med video-->
-<h2 class="title">Studenthistorier</h2>
-   <section class="container">
 
+<h2 class="title">Studenthistorier</h2>
+<section class="container">
+   
     <section class="text">
         <div class="link-container">
-            <a href="https://www.oslomet.no/studier/studenthistorier?student_story=147"><strong>Teknologi og design</a></strong>
+            <a href="https://www.oslomet.no/studier/studenthistorier?student_story=147"><strong>Teknologi og design</strong></a>
     </div>        
         <h3><strong>Spå fremtiden med matematikk og datavitenskap</strong></h3>
             <p>Har du lyst til å finne ut hva som vil skje i fremtiden? Lær å bruk verktøy 
@@ -76,6 +77,7 @@
                     <input type="checkbox" id="thumbs-down" class="thumbs-checkbox thumbs-down">
                     <label for="thumbs-down" class="fa-solid fa-thumbs-down"></label>
                 </div>
+
                 <p>NB! ikke legg igjen personlig info</p>
                 <p>Hendvendelser blir ikke svart.</p>
                 <textarea placeholder="Hva lurer du på? Skriv her."></textarea>
@@ -87,9 +89,9 @@
 
             <!--Footer-->
             <footer>
-                <section class="row">
+                <div class="footer-container">
     
-                    <section class="col">
+                    <section class="footer-item">
                         <h3><strong>OSLO METROPOLITAN UNIVERSITY</strong><br>STORBYUNIVERSITETET</h3>
                         <p>Postboks 4, St. Olavs plass</p>
                         <p>0130 Oslo</p>
@@ -99,7 +101,7 @@
                         </ul> 
                     </section>
 
-                        <section class="col">
+                        <div class="footer-item">
                             <ul>
                                 <li><strong><a href="https://www.oslomet.no/en">English</a></strong></li>
                                 <li><strong><a href="https://www.oslomet.no/alumni">Alumni</a></strong></li>
@@ -113,13 +115,12 @@
                                 <li><strong><a href="https://www.oslomet.no/om/tilgjengelegheitserklering">Tilgjengelegheitserklæring</a></strong></li>
                                 <li><strong><a href="">Admin</a></li><!--Var ikke en link tilgjengelig for denne-->
                             </ul>
-                        </section>
-                            <section class="col">
+                        </div>
+                            <section class="footer-item">
                                 <h3>Hold deg opptatert på hva som skjer på OsloMet. <div class="underline"><span></span></div></h3>
                                 <a href="https://www.oslomet.no/nyhetsbrev" class="abonner-knapp" target="_blank" rel="noopener" style="text-decoration: none;">Abonner på vårt nyhetsbrev!</a>
-                                <!--Fix på senere-->
     
-                                <section class="sosiale-medier">
+                                <div class="sosiale-medier">
                                     <a href="https://www.facebook.com/oslomet/" target="_blank" rel="noopener">
                                     <i class="fa-brands fa-square-facebook"></i>
                                     Facebook</a>
@@ -132,11 +133,13 @@
                                     <a href="https://www.instagram.com/oslomet/?hl=nb" target="_blank" rel="noopener">
                                     <i class="fa-brands fa-square-instagram"></i>
                                     Instagram</a>
-                                </section>
+                                    </div>
                             </section>
-                </section>
+
+                        </div>
     
-            </footer>    
+            </footer>  
+            <!--inspired by: https://www.youtube.com/watch?v=FRRlFLfdvBE&t=335s-->  
     </body>
 
 </html>
