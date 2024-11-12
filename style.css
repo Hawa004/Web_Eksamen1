@@ -14,74 +14,59 @@ body {
 }
 
 
-.ikon-på-navbar {
-    width: 100%;
-    background-color: #ffd400; 
-    overflow: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-}
-
-
-.logo-og-studieoversikt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 20px; 
-}
-
-
-.logo img {
-    height: 30px; 
-    margin-left: 25px; 
-}
-
-
-.studieoversikt {
-    margin-top: 20px; 
-}
-
-.studieoversikt a {
-    font-size: 1em;
-    font-weight: bold;
+nav ul {
+    list-style-type: none;   
+    margin: 0;
+    padding: 40px;
+    overflow: hidden;
+    background-color: #ffd400;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+    
+       
+    .OsloMetLogo {
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        margin-right: 20px;  
+    
+    }    
+    
+    
+    .StudieoveriktLink  {
+      margin-top: 5px;
+      padding: 20px;
+      
+    
+    
+    }
+    
+    
+    
+    
+    
+    nav li{
+        float: left;
+        
+    }
+    
+    nav li a {
     text-decoration: none;
-    color: black; 
-}
-
-.studieoversikt a:hover {
-    text-decoration: underline; 
-    color: black; 
-
-}
-
-
-/* Ikoner */
-.ikon-på-navbar a i {
-    font-size: 1em;
-    color: black; 
-}
-
-.ikon-på-navbar a:hover i {
-    color: black; 
-}
-
-
-.ikon-på-navbar a:hover {
-    background-color: transparent; 
-    color: black; 
-}
-
-
-.ikon-på-navbar-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 20%;
-}
-
+    display: block; 
+    padding: 8px;;  
+    color: black;
+    
+    
+    }
+    
+    nav a:hover{
+        background-color:none;
+        color:#333;
+        text-decoration: underline;
+    
+    }
 
 
 .header-title {
