@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    /*display: flex;*/
     background-color: white;
     flex-direction: column;
     align-items: center;
@@ -36,14 +36,28 @@ h1 {
     
 }
 
+/*
 .ikon-på-navbar {
-    width:100%; 
+    max-width: 1200px;
+    margin: auto;
     background-color: #ffd400; 
-    /*overflow: auto;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    
-    padding: 25px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+    */
+header{
+    background-color: #ffd400;
+    color: #fff;
+    padding: 10px 0;
+}
+#logo{
+    float: left;
+}
+nav{
+    float: right;
 }
 
 
@@ -104,13 +118,13 @@ h1 {
     width: 20%;
 }*/
 
-.body {
+/*.body {
     max-width: 1150px;
     margin: auto;
-    /*padding: 10px;*/
+    padding: 10px;
     align-items: center;
 
-}
+}*/
 
 
 
