@@ -10,27 +10,33 @@
  <body>
  
  <!--Header with a navigationbar-->
-    <header>
-        <nav>
-           <ul>
-             <li class="OsloMetLogo">
-                <a href="https://www.oslomet.no/">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
-                alt="OsloMet Logo"  width="55"    height="35">
-              </a>
-            </li>
-           
-            <li class="StudieoveriktLink">
-            <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
-        </li>
-            <li><a href="#">Accessibility</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Creative</a></li>
+ <header>
+  <nav>
+     <ul>  <!--Setteing Logo and studieoversikt in same "div" to style i css-->
+       <li class="logo-og-studieoversikt">
+          <a href="https://www.oslomet.no/"  class="OsloMetLogo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
+          alt="OsloMet Logo"  width="55"    height="35">
+        </a>
+        <a href="https://www.oslomet.no/studier/studieoversikt"class="Studieoversiktlink">Studieoversikt</a>
+      </li>
+     
+      <!--Other links in the navigation bar-->
+      <li><a href="#">Accessibility</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Activity</a></li>
+      <li class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Søk.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </li>
 
-           </ul>
-        </nav>        
-    </header>   
-   
+
+     </ul>
+     
+  </nav>        
+</header>   
   <!--Table for studieoversikt-->
 
   <table class="KortInfo">
