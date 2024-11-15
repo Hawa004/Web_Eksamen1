@@ -36,7 +36,7 @@ h1 {
     
 }
 
-/*
+
 .ikon-på-navbar {
     max-width: 1200px;
     margin: auto;
@@ -47,7 +47,7 @@ h1 {
     align-items: center;
     padding: 0 20px;
 }
-    */
+
 header{
     background-color: #ffd400;
     color: #fff;
@@ -95,7 +95,7 @@ nav{
 
 
 /* Ikoner */
-/*.ikon-på-navbar a i {
+.ikon-på-navbar a i {
     font-size: 1em;
     color: black; 
 }
@@ -118,13 +118,13 @@ nav{
     width: 20%;
 }*/
 
-/*.body {
+.body {
     max-width: 1150px;
     margin: auto;
     padding: 10px;
     align-items: center;
 
-}*/
+}
 
 
 
