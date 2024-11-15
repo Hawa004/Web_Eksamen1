@@ -11,18 +11,19 @@ body{
     align-items: center;
 }
 
-p, h3{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    line-height: 1.5em;
-}
-
 
 header{
     background-color: #ffd500;
     color: black;
     padding: 10px 0;
 }
+
+p, h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.5em;
+}
+
 /*Container1 contains the logo, studentoversikt link and the navigation bar*/
 .container1{
     max-width: 1200px;
@@ -34,7 +35,6 @@ header{
     color: black;
     text-decoration: none;
 }
-
 .studentoversikt{
     text-align: left;
     padding-top: 10px;
