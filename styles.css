@@ -492,36 +492,56 @@ section.menu-container .toggler:checked ~.menu > div {
     margin-bottom: 20px;
 }
 
-.video-content{
-  width: 35%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+section.menu-container nav.menu > div {
+    background: rgba(255,212,0,0.85); 
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    width: 200vw;
+    height: 200vw;
+    transform: scale(0);
+    transition: all 0.4s ease;
+
 }
 
-.video-cover{
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
+section.menu-container nav.menu > div > div {
+    max-width: 90vw;
+    max-height: 100vh;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.4s ease;
+
 }
 
-.image-cover, .video-element {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+section.menu-container nav.menu > div > div > ul > li{
+    list-style: none;
+    color:  black;
+    font-size: 1.5rem;
+    padding: 1rem;
+
 }
 
-.image-cover{
-    display: block;
+section.menu-container nav.menu > div > div > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.4s ease;
+
 }
 
-.video-element{
-    display: none;
-   
+section.menu-container nav.menu > div > div > ul > li > a {
+    text-decoration: none;
 }
 
-/*footer*/
+section.menu-container nav.menu > div > div > ul > li > a:hover {
+    text-decoration: underline;
+    
+}
+/*inspired by: https://www.youtube.com/watch?v=DZg6UfS5zYg&t=1863s*/
+
+
+/* Studenthistorier */
 * {
     margin: 0;
     padding: 0;
@@ -604,6 +624,100 @@ body {
 .video-element{
     display: none;
    
+}
+
+/* Student Stories Section */
+.text-center {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-link {
+    color: #0074D9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.separator {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+.more-stories {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FFDC00;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+/*Swipe*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Swipeable Boxes */
+.swipe-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+}
+
+.box {
+    min-width: 250px;
+    padding: 20px;
+    background-color: #FFDC00;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.box h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #111;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.box p span {
+    display: block;
 }
 
 /*Spørsmål Knapp*/
