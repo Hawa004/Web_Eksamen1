@@ -7,56 +7,56 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
+    
     <body>
 
-        <!--Navbar-->
-        <header>
-            <nav>
-               <ul>  <!--Setteing Logo and studieoversikt in same "div" to style i css-->
-                 <li class="logo-og-studieoversikt">
-                    <a href="https://www.oslomet.no/"  class="OsloMetLogo">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
-                    alt="OsloMet Logo"  width="55"    height="35">
-                  </a>
-                  <a href="https://www.oslomet.no/studier/studieoversikt"class="Studieoversiktlink">Studieoversikt</a>
-                </li>
-        
-                 <!--Hamburger menu-->
-    <section class="menu-container">
+        <!--Hamburger menu-->
+    <div class="menu-wrap">
         <input type="checkbox" class="toggler" >
-        <div class="burger-icon"><div></div></div>
-        <nav class="menu">
-                        <div>
-                            <div>
-                                <ul>
-                                    <li><a href="https://www.oslomet.no/studier">Studier</a></li>
-                                    <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
-                                    <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
-                                    <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
-                                    <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
-                                    <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
-                                    <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </section>
-                <li>
-                    <li><a href="#">Accessibility</a></li>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Activity</a></li>
-                    <li class="search-container">
-                        <form action="/action_page.php">
-                          <input type="text" placeholder="Søk.." name="search">
-                          <button type="submit"><i class="fa fa-search"></i></button>
-                        </form>
-                      </li>
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="https://www.oslomet.no/studier">Studier</a></li>
+                        <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
+                        <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
+                        <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
+                        <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
+                        <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
+                        <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
                     </ul>
-                  </nav>
-                </header>
-        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!--Navbar-->
+        <div class="ikon-på-navbar">
+            <!-- Logo og studieoversikt på venstre side -->
+            <div class="logo-og-studieoversikt">
+              <div class="logo">
+                <a href="https://www.oslomet.no/">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
+                  alt="OsloMet Logo"
+                   width="47"    height="35">
+                </a>
+              </div>
+              <div class="studieoversikt">
+                
+                <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
+                <!--Seachbar-->
+                <li class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Søk.." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                  </li>
+              </div>
+            </div>
+          </div>
 
-          <!--Emne-->
+         <!--Emne-->
         <section class="header-title">
             <h1><strong>Matematisk modellering og datavitenskap-<br>ingniør</br></strong></h1>
             <p id="Bachelorprogram">Bachelorprogram</p>
@@ -489,30 +489,29 @@
     </label>
     <input type="checkbox" id="vinduPopup" class="vindu-popup">
 
-    <section class="tilbakemelding-popup">
-        <article class="popup-innhold">
-            <h2>Spørsmål?</h2>
-            <div class ="tilbakemelding-icon">
-                <input type="checkbox" id="thumbs-up"  class="thumbs-checkbox thumbs-up">
-                <label for="thumbs-up" class="fa-solid fa-thumbs-up"></label>
+        <div class="tilbakemelding-popup">
+            <div class="popup-innhold">
+                <h2>Spørsmål?</h2>
+                <div class ="tilbakemelding-icon">
+                    <input type="checkbox" id="thumbs-up"  class="thumbs-checkbox thumbs-up">
+                    <label for="thumbs-up" class="fa-solid fa-thumbs-up"></label>
 
-                <input type="checkbox" id="thumbs-down" class="thumbs-checkbox thumbs-down">
-                <label for="thumbs-down" class="fa-solid fa-thumbs-down"></label>
+                    <input type="checkbox" id="thumbs-down" class="thumbs-checkbox thumbs-down">
+                    <label for="thumbs-down" class="fa-solid fa-thumbs-down"></label>
+                </div>
+                <p>NB! ikke legg igjen personlig info</p>
+                <p>Hendvendelser blir ikke svart.</p>
+                <textarea placeholder="Hva lurer du på? Skriv her."></textarea>
+                <button class="send-knapp">Send inn</button>
+                <label for="vinduPopup" class="lukke-link">Ikke vis dette igjen</label>
             </div>
-
-            <p>NB! ikke legg igjen personlig info</p>
-            <p>Hendvendelser blir ikke svart.</p>
-            <textarea placeholder="Hva lurer du på? Skriv her."></textarea>
-            <button class="send-knapp">Send inn</button>
-            <label for="vinduPopup" class="lukke-link">Ikke vis dette igjen</label>
-        </article>
-        <label for="vinduPopup" class="lukke-knapp"><i class="fa-solid fa-xmark"></i> Lukk</label>
-    </section>
+            <label for="vinduPopup" class="lukke-knapp"><i class="fa-solid fa-xmark"></i> Lukk</label>
+            </div>
 
 
             <!--Footer-->
             <footer>
-                <div class="footer-container">
+                <div class="row">
     
                     <section class="footer-item">
                         <h3><strong>OSLO METROPOLITAN UNIVERSITY</strong><br>STORBYUNIVERSITETET</h3>

@@ -1,94 +1,77 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang ="no">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Matematisk modellering og datavitenskap - ingeniør - OsloMet</title>
+        <meta name = "viewport" content="width=device-width,initial-scale=1">
+        <title> Matematisk modellering og datavitenskap - ingeniør</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
         
-        <div class="ikon-på-navbar">
-        <!-- Logo og studieoversikt på venstre side -->
-        <div class="logo-og-studieoversikt">
-            <div class="logo" id="Logo">
-                <a href="https://www.oslomet.no/">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
-                    alt="OsloMet logo" 
-                    width="47"   height="35">
-                </a>
-            </div>
-                <div class="studieoversikt">
-        
-                    <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
+        <header>
+            <!--Navbar-->
+            <div class="container1">
+                <div class="logo" id="#logo">
+                    <a href="https://www.oslomet.no/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
+                        alt="OsloMet Logo"
+                        width="60"    height="35">
+                        </a>
+                        <div class="studentoversikt">
+                            <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
+                        </div>
                 </div>
+                
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#accessibility">Accessibility</a></li>
+                        <li><a href="#github">Github</a></li>
+                        <li><a href="#activity">Activity</a></li>
+                    </ul>
+                </nav>
             </div>
-  
-   
 
-            <div class="Meny">
-    
-            </div>
-    
-            <!--Her setter jeg et bilde istedenfor-->
+            <!--Hamburger menu-->
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.oslomet.no/studier">Studier</a></li>
+                                <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
+                                <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
+                                <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
+                                <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
+                                <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
+                                <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </header>
 
-            </div>
-            <div class="body">
+        <!--Emne-->
+        <main>
             <section class="header-title">
                 <h1><strong>Matematisk modellering og datavitenskap-<br>ingniør</br></strong></h1>
-                <p id="Bachelorprogram">Bachelorprogram</p>
- 
-                <p id="Beskrivelse">Få innsikt i matematiske modeller og datadrevne metoder som kan løse mange praktiske<br> og 
+                <p id="bachelorprogram">Bachelorprogram</p>
+           
+                <p id="beskrivelse">Få innsikt i matematiske modeller og datadrevne metoder som kan løse mange praktiske<br> og 
                 samfunnsnyttige oppgaver.</p>
                 <img src="https://www.oslomet.no/var/oslomet/storage/images/1/0/2/1/391201-36-nor-NO/17197440d538-matematisk-modellering-datavitenskap-bachelor.jpg" 
                 alt="Hovedbilde"
                 width="575"   height="320"
                 class="Hovedbilde2">
-    
-    
             </section>
-            <!--
-            <table class="KortInfo">
-  
-  
-                <tr>
-                    <th><i class="fa fa-map-marker" aria-hidden="true"></i>Studiested</th>
-                    <th><i class="fa fa-hourglass-half" aria-hidden="true"></i>Vaighet</th>
-                    <th><i class="fa fa-book" aria-hidden="true"></i>Omfang</th>
-                    <th><i class="fa fa-star" aria-hidden="true"></i>Studiepoeng</th>
-  
-                </tr>
 
-                <tr>
-                    <td><a href="https://www.oslomet.no/om/studiested-pilestredet">Pilestredet</a><ins> i Oslo</ins></td>
-                    <td><ins> 3 år </ins></td>
-                    <td><ins>Heltid</ins></td>
-                    <td><ins>180</ins></td>
-                </tr>
 
-                <tr>
-                    <th><i class="fa fa-calendar" aria-hidden="true"></i>Studiestart</th>
-                    <th><i class="fa fa-language" aria-hidden="true"></i>Undervisningsspråk</th>
-                    <th><i class="fa fa-users" aria-hidden="true"></i>Studieplasser</th>
-                    <th><i class="fa fa-money" aria-hidden="true"></i>Kostnad & Utveksling</th>
-                </tr>
-  
-                <tr>
-                    <td><ins>August</ins></td>
-                    <td><ins>Norsk og engelsk</ins></td>
-                    <td><ins>60</ins></td>
-                    <td><ins>Se her <a href="https://student.oslomet.no/semesteravgift">Studieavgift </a></ins>
-                    <ins><br> Utveksling: Femte semester</ins></td>
- 
-  
-                </tr>
-
-            </table>
-            -->
-        <!-- -->
-        <section class="beskrivelse" >
-            <!--<article class="box2">-->
+            <!--Studie beskrivelse-->
+            <section class="beskrivelse" >
                 <div class="besk">
                     <img class="stikkers" src="https://img.icons8.com/?size=100&id=2436&format=png&color=40C057" alt="position" >
                     <div class="undertext">
@@ -125,8 +108,7 @@
                         </p>
                     </div>
                 </div>
-            <!--</article>-->
-            <!--<article class="box2">-->
+            
                 <div class="besk">
                     <img class="stikkers" src="https://img.icons8.com/?size=100&id=nycbzd1Rzvqz&format=png&color=40C057" alt="skole start bok" >
                     <div class="undertext">
@@ -163,67 +145,112 @@
                         </p>
                     </div>
                 </div>
+            </section>
 
-            <!--</article>-->
-
-        </section>
-
-        <section class="box">
-            <article class="box1">
-                <div class="Setup">
+            <!--Studies oppbygning-->
+            <section class="box">
+                <div class="setup">
                     <a href="#popup" id="id" class="id">Studiestart</a>
                 </div>
                 <div id="popup" class="popup">
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
-                        <h3 class="text">Studiestart</h3>
-                        <p class="text"> Informasjon om program, timeplaner, pensum, fadderuker og mye mer finner du på 
+                        <h3>Studiestart</h3>
+                        <p>Informasjon om program, timeplaner, pensum, fadderuker og mye mer finner du på 
                             <a href="https://student.oslomet.no/bachelor-matematisk-modellering-datavitenskap">
                             <strong>studiestartsiden for matematisk modellering og datavitenskap - ingeniør (student.oslomet.no).</strong></a>
                         </p>
-                        <p class="text">NB! Vær obs på at timeplanen som ligger på studiestartsiden er en timeplan for alle studentene på kullet.</p>
-                        <p class="text">For å se din personlige timeplan må du logge deg inn på <a href="https://student.oslomet.no/"><strong>"Min side" (student.oslomet.no)</strong></a> 
+                        <p>NB! Vær obs på at timeplanen som ligger på studiestartsiden er en timeplan for alle studentene på kullet.</p>
+                        <p>For å se din personlige timeplan må du logge deg inn på <a href="https://student.oslomet.no/"><strong>"Min side" (student.oslomet.no)</strong></a> 
                             etter at du har aktivert IT-kontoen din og du er blitt plassert i klasse/gruppe. Dette skjer vanligvis uken før studiestart.
                         </p>
                     </div>
                 </div>
-
-                <div class="Setup">
+    
+                <div class="setup">
                     <a href="#opptak" id="id" class="id">Opptakskrav og poeng</a>
                 </div>
                 <div id="opptak" class="popup">
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
-
+                        <h3>Opptakskrav og poeng</h3>
+                        <p>For å søke på dette programmet må du ha</p>
+                        <ul>
+                            <li>
+                                <a href="https://www.samordnaopptak.no/info/opptak/opptak-uhg/"><strong>Generell studiekompetanse (samordnaopptak.no)</strong></a> 
+                                eller <a href="https://www.oslomet.no/studier/soknad-og-opptak/realkompetanse/realkompetanse-ingenior"><strong>oppfylle kravene til realkompetanse</strong></a>
+                            </li>
+                            <li>Matematikk R1 og R2</li>
+                            <li>Fysikk 1</li>                                    
+                        </ul>
+                        <p>Det kan være konkurranse om plassene. Ved forrige opptak kom alle kvalifiserte søkere inn.</p>
+                        <p>
+                            Hvis du mangler generell studiekompetanse eller enkelte fag fra videregående skole, kan du søke på dette studiet om du har 
+                            <a href="https://www.oslomet.no/studier/tkd/forkurs-ingenior"><strong>bestått ettårig forkurs for ingeniørutdanning</strong></a>.
+                        </p>
                     </div>
                 </div>
-
-                <div class="Setup">
+    
+                <div class="setup">
                     <a href="#søking" id="id" class="id">Slik søker du</a>
                 </div>
                 <div id="søking" class="popup">
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
-
-
+                        <h3>Slik søker du</h3>
+                        <p>Du søker på Samordna opptak med studiekode 215 503.</p>
+                        <ul>
+                            <li>15. april: ordinær søknadsfrist</li>
+                            <li>1. mars: frist for enkelte søkere</li>
+                        </ul>
+                        <a href="https://www.oslomet.no/studier/soknad-og-opptak/opptak-til-bachelor-aarsstudier"  ><strong>Mer om å søke på bachelor</strong>.</a>
                     </div>
                 </div>
-            </article>
+            
         
             
-            <article class="box1">
-                <div class="Setup">
+                <div class="setup">
                     <a href="#læring"id="id" class="id">Hva lærer du?</a>
                 </div>
                 <div id="læring" class="popup"> 
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
+                        <h3>Hva lærer du?</h3>
+                        <p>Bachelor i matematisk modellering og datavitenskap kobler sammen matematikk, informatikk, fysikk og statistikk.</p>
+                        <p>Du får innsikt i matematiske modeller som brukes i praktisk problemløsning blant annet i medisinsk kjemi, biologiske prosesser og ulike samfunnssystemer.</p>
+                        <p>Det første studieåret har du emner i blant annet matematikk, programmering, fysikk og kjemi for å få en felles forståelse av tematikken.</p>
+                        <p>Det siste semesteret skriver du en bacheloroppgave tett knyttet til problemstillinger i arbeidslivet.</p>
+                        <p>Første året velger du hvilken av disse spesialiseringene du vil ta.</p>
 
+                        <input type="checkbox" id="show-more" class="show-more">
+                        <div class="hide">
+                            <label for="show-more"><strong>Statiske og datadrevne metoder</strong></label>
+                            <p>Du lærer om hvordan du kan bruke målte data koblet med datadrevne og statistiske metoder til å gjøre beregninger, for eksempel av fremtidige strømpriser.</p>
+                            <p>Du lærer hvordan du kan løse komplekse og sammensatte problemer, og utforske høydimensjonale datatyper. Moderne metoder innen maskinlæring og kunstig intelligens står sentralt.</p>
+                        </div>
+                        <label for="show-more" tabindex=0><strong>Statiske og datadrevne metoder</strong></label>
 
+                        <input type="checkbox" id="show-more" class="show-more">
+                        <div class="hide">
+                            <label for="show-more"><strong>Vitenskapelige beregninger</strong></label>
+                            <p>Du lærer å lage effektive algoritmer, datastrukturer og kildekoder for å løse matematiske og fysiske problemer med numeriske metoder.</p>
+                            <p>Du lærer å utvikle kildekode og metodikk knyttet til medisinsk teknologi, biologiske prosesser og annet.</p>
+                        </div>
+                        <label for="show-more" tabindex=0><strong>Vitenskapelige beregninger</strong></label>
+
+                        <input type="checkbox" id="show-more" class="show-more">
+                        <div class="hide">
+                            <label for="show-more"><strong>Matematikk og fysikk</strong></label>
+                            <p>Du utforsker algebraiske strukturer, blant annet knyttet til dyp læring og kunstig intelligens.</p>
+                            <p>Du lærer differensialgeometri på flater, gruppeteori og kodeteori; matematiske strukturer, representasjonsteori og kategoriteori.</p>
+                            <p>I fysikk lærer du om termodynamikk og statistisk fysikk.</p>
+                        </div>
+                        <label   for="show-more" tabindex=0><strong>Matematikk og fysikk</strong></label>
+                        <a   href="https://student.oslomet.no/studier/-/studieinfo/programplan/HINGMAMO/2024/H%C3%98ST"><strong>Se programplan på student.oslomet.no</strong></a>
                     </div>
                 </div>
-
-                <div class="Setup">
+    
+                <div class="setup">
                     <a href="#tabell" id="id" class="id">Studiets oppbygging</a> 
                 </div> 
                 <div id="tabell" class="popup"> 
@@ -364,56 +391,114 @@
                         </table>
                     </div>
                 </div>   
-
-                <div class="Setup">
+    
+                <div class="setup">
                     <a href="#undervisning" id="id" class="id">Hvordan foregår undervisningen?</a>
                 </div>
                 <div id="undervisning" class="popup"> 
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
-
-
+                        <h3>Hvordan foregår undervisningen?</h3>
+                        <p>Undervisningen er en kombinasjon av</p>
+                        <ul>
+                            <li>prosjektarbeid</li>
+                            <li>workshop</li>
+                            <li>presentasjoner</li>
+                            <li>veiledninger</li>
+                            <li>diskusjoner og refleksjoner</li>
+                            <li>forelesninger</li>
+                            <li>selvstudier</li>
+                            <li>gruppearbeid</li>
+                            <li>arbeidslivsrelevant bacheloroppgave</li>
+                        </ul>
+                        <p>For å gjennomføre studiet på normert tid, må du regne med å bruke om lag 40 timer per uke på studierelatert arbeid gjennom hele semesteret.</p>
                     </div>
                 </div>
-            </article>
-
-            <article class="box1">
-                <div class="Setup">
+            
+    
+            
+                <div class="setup">
                     <a href="#jobb" id="id" class="id">Hva kan du jobbe som?</a>
                 </div>
                 <div id="jobb" class="popup"> 
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
-
-
+                        <h3>Hva kan du jobbe som?</h3>
+                        <p>Med dette studiet får du IT-kompetanse som er etterspurt i arbeidslivet, særlig om du velger spesialiseringene vitenskapelige beregninger eller statistiske og datadrevne metoder.</p>
+                        <p>Spesialiseringen i matematikk og fysikk retter seg mer mot videre studier, men også her får du etterspurt kompetanse i arbeidslivet etter bachelorstudiet.</p>
+                        <p>Matematisk modellering og datavitenskap blir stadig viktigere som basisgrunnlag, i for eksempel beregninger knyttet til klima, forsikring og finans, og datadrevne metoder for verdiskaping.</p>
+                        <p>Datadrevne metoder og maskinlæring er i dag svært mye brukt i arbeidslivet.</p>
                     </div>
                 </div>
-
-                <div class="Setup">
+    
+                <div class="setup">
                     <a href="#utveksling" id="id" class="id">Utveksling</a>
                 </div>
                 <div id="utveksling" class="popup"> 
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
-
-
+                        <h3>Utveksling</h3>
+                        <p>Du kan dra på utveksling i femte semester.</p>
+    
                     </div>
                 </div>
-
-                <div class="Setup">
+    
+                <div class="setup">
                     <a href="#videre" id="id" class="id">Videre studiemuligheter ved OsloMet</a>
                 </div>
                 <div id="videre" class="popup"> 
                     <div class="cont">
                         <a href="" class="close">&Cross;</a>
+                        <h3>Videre studiemuligheter ved OsloMet</h3>
+                        <div class="studie-muligheter">
+                            <a href="https://www.oslomet.no/studier/tkd/anvendt-data-informasjonsteknologi">
+                                <h4>Anvendt data- og informasjonsteknologi (ACIT)</h4>
+                                <p>Masterprogram | 2 år | Pilestredet i Oslo | Heltid</p>
+                            </a>
 
-
+                        </div>
+    
                     </div>
                 </div>
-            </article>
-        </section>
-        </div>
+                
+            </section>  
 
-  
+            <!--Studenthistorier med video-->
+            <h2 class="title">Studenthistorier</h2>
+            <section class="container">
+       
+            <section>
+                <div class="link-container">
+                    <a href="https://www.oslomet.no/studier/studenthistorier?student_story=147"><strong>Teknologi og design</strong></a>
+                </div>        
+                <h3><strong>Spå fremtiden med matematikk og datavitenskap</strong></h3>
+                <p>Har du lyst til å finne ut hva som vil skje i fremtiden? Lær å bruk verktøy 
+                 for å forutsi alt fra været til strømprisene til utviklingen i bolig markedet.
+                </p>
+                <div class="Video-content">
+                    <div class="video-cover">
+                        <img src="images/bilde.png" alt="Video cover" class="image-cover" onclick="this.style.display='none'; this.nextElementSibling.style.display='block'; this.nextElementSibling.play();">
+                        <video width="100%" height="200" controls style="display: none;" class="video-element">
+                            <source src="https://film.oslomet.no/64968560/95216483/6d08e93b7e0ee74eff25a7b31746d45c/video_1080p/matematisk-modellering-og-14-video.mp4 " type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>        
+        
+            
+        </section>
+        
+
+    
+    
+
+        </main> 
+
+
     </body>
+
+
+
+
+
 </html>
