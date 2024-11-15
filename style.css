@@ -60,6 +60,8 @@ nav{
     padding: 0;
     font-size: 1.1rem;
     font-weight: bold;
+    display: flexbox;
+
 }
 .nav-links li{
     display: inline-block;
@@ -87,7 +89,7 @@ nav{
 }
 
 .search-container form {
-    display: flex;
+    display: flexbox;
 }
 /*Create a rounder boarder around the searchbar */
 .search-container input[type="text"] {
@@ -98,7 +100,7 @@ nav{
 /*Style for search icon, also with rounder boarder*/
 .search-container button {
     padding: 6px;
-    background-color: #333;
+    background-color: rgba(153, 205, 50, 0.484);
     color:white;
     border: none;
     border-radius: 0 4px 4px 0;
@@ -106,7 +108,7 @@ nav{
 }
 /*Style for searchbar icon when hover*/
 .search-container button:hover {
-    background-color: #555;
+    background-color: rgba(255, 231, 113, 0.956);
 }
 
 
