@@ -61,11 +61,13 @@ nav{
     font-size: 1.1rem;
     font-weight: bold;
     display: flexbox;
+    flex-wrap: wrap;
+    align-items: baseline;
 
 }
 .nav-links li{
     display: inline-block;
-    margin-right: 40px ;
+    margin-right: 20px ;
 }
 .nav-links li a{
     color: black;
@@ -86,10 +88,15 @@ nav{
  /*Moving entire searchbar to the right */
  .search-container {
     float: right;
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .search-container form {
     display: flexbox;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 /*Create a rounder boarder around the searchbar */
 .search-container input[type="text"] {
@@ -413,6 +420,8 @@ main{
     border-radius: 10px;
     cursor: pointer;
     outline: none;
+    display: flex;
+    align-content: center;
 }
 .popup{/*hvordan popupen fungerer*/
     position: fixed;
