@@ -117,6 +117,38 @@ nav{
     align-items: center;
     width: 20%;
 }*/
+/*STYLE FOR SEARCHBAR*/
+
+ /*Moving entire searchbar to the right */
+ .search-container {
+    float: right;
+    margin-top: 10px;
+}
+
+.search-container form {
+    display: flex;
+}
+/*Create a rounder boarder around the searchbar */
+.search-container input[type="text"] {
+    padding: 6px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+/*Style for search icon, also with rounder boarder*/
+.search-container button {
+    padding: 6px;
+    background-color: #333;
+    color:white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+/*Style for searchbar icon when hover*/
+.search-container button:hover {
+    background-color: #555;
+}
+
+
 
 .body {
     max-width: 1150px;
