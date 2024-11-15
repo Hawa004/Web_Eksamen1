@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    /*display: flex;*/
     background-color: white;
     flex-direction: column;
     align-items: center;
@@ -36,14 +36,28 @@ h1 {
     
 }
 
+
 .ikon-på-navbar {
-    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     background-color: #ffd400; 
-    overflow: auto;
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 0 20px;
+}
+
+header{
+    background-color: #ffd400;
+    color: #fff;
+    padding: 10px 0;
+}
+#logo{
+    float: left;
+}
+nav{
+    float: right;
 }
 
 
@@ -102,12 +116,12 @@ h1 {
     justify-content: flex-end;
     align-items: center;
     width: 20%;
-}
+}*/
 
 .body {
     max-width: 1150px;
     margin: auto;
-    /*padding: 10px;*/
+    padding: 10px;
     align-items: center;
 
 }
@@ -388,22 +402,6 @@ a:hover{
 
 
 /* Studenthistorier */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 .title{
     font-size: 1.6rem;
     color: black;
@@ -426,11 +424,6 @@ section.menu-container .burger-icon > div::after{
     
 }
 
-.text {
-    background-color: #ffd700;
-    padding: 20px;
-    width: 60%;
-}
 
 .link-container{
     margin-top: 20px;
@@ -532,23 +525,11 @@ body {
     
 }
 
-.text {
-    background-color: #ffd700;
-    padding: 20px;
-    width: 60%;
-}
-
 .link-container{
     margin-top: 20px;
 }
 
-.text a{
-    font-size: 1rem;
-    font-weight: bold;
-    color: black;
-    text-decoration: underline;
 
-}
 
 .text h3 {
     font-size: 1.5rem;

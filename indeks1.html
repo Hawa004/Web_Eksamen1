@@ -7,28 +7,29 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
+    
     <body>
 
         <!--Hamburger menu-->
-        <div class="menu-wrap">
-            <input type="checkbox" class="toggler" >
-            <div class="hamburger"><div></div></div>
-            <div class="menu">
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler" >
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
                 <div>
-                    <div>
-                        <ul>
-                            <li><a href="https://www.oslomet.no/studier">Studier</a></li>
-                            <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
-                            <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
-                            <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
-                            <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
-                            <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
-                            <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a href="https://www.oslomet.no/studier">Studier</a></li>
+                        <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
+                        <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
+                        <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
+                        <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
+                        <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
+                        <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
     
         <!--Navbar-->
         <div class="ikon-på-navbar">
@@ -55,7 +56,7 @@
             </div>
           </div>
 
-          <!--Emne-->
+         <!--Emne-->
         <section class="header-title">
             <h1><strong>Matematisk modellering og datavitenskap-<br>ingniør</br></strong></h1>
             <p id="Bachelorprogram">Bachelorprogram</p>
@@ -67,6 +68,24 @@
               width="575"   height="320"
               class="Hovedbilde2">
         </section>
+
+        <!--Faglig Leder-->
+
+        <div class="Kontankt_informasjon">
+            <h2> Faglig leder</h2>
+            <div class="Profil">
+                <a href="https://www.oslomet.no/om/ansatt/krhel3944/">
+                    <img  src="https://gw-oslomet.intark.uh-it.no/ansattbilde/krhel3944"
+                    width="100"       height="120"  alt="ProfilBilde"> 
+                </a>
+            <div class="ProfilInfo">
+                <h3>Kristoffer Herland Hellton</h3>
+                <p>førsteamanuensis</p>
+                <a href="mailto:kristoffer.hellton@oslomet.no">kristoffer.hellton@oslomet.no</a><br>
+                <a href="tel:+47 672 37 240">+47 672 37 240</a>
+            </div>     
+        </div>
+    </div>
 
         <!--table for studie oversikt-->
         <table class="KortInfo">
@@ -341,6 +360,18 @@
         </div>
     </div>  
 
+    <!--Spørsmål om utdanning-->
+    <div class="container text-center">
+        <h1>Spørsmål om utdanningen?</h1>
+        <p>Har du spørsmål om utdanningen, kontakt oss gjennom vårt 
+            <a href="https://www.oslomet.no/kontaktskjema#Jeg%20vil%20bli%20student" class="contact-link">kontaktskjema</a>.
+        </p>
+        <div class="separator"></div>
+        <a href="https://www.oslomet.no/studier/studenthistorier" class="more-stories">Flere studenthistorier &gt;</a>
+        <div class="separator"></div>
+    </div>
+
+
     <!--Studenthistorier med video-->
     <h2 class="title">Studenthistorier</h2>
     <section class="container">
@@ -364,6 +395,92 @@
                 </div>
             </div>
        </section>
+
+        <!-- Swipeable Boxes Section -->
+    <h1>Du er kanskje også interessert i disse?</h1>
+    <div class="container swipe-container">
+        <div class="box" onclick="redirect('https://www.oslomet.no/studier/tkd/anvendt-datateknologi')">
+            <h2>Anvendt datateknologi</h2>
+            <p><span>Bachelorprogram</span><span>3 år</span><span>Pilestredet i Oslo</span><span>Heltid</span></p>
+        </div>
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/bioteknologi-kjemiingenior'">
+            <h2>Bioteknologi- og kjemiingeniør</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/byggingenior'">
+            <h2>Byggingeniør</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/dataingenior'">
+            <h2>Dataingeniør</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/elektronikkingenior'">
+            <h2>Elektronikkingeniør</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/informasjonsteknologi'">
+            <h2>Informasjonsteknologi</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/maskiningenior'">
+            <h2>Maskiningeniør</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+
+        <div class="box" onclick="window.location.href='https://www.oslomet.no/studier/tkd/tre-termin-ingenior'">
+            <h2>Tre-terminsordning til ingeniørutdanning</h2>
+            <p>
+                <span>Bachelorprogram</span>
+                <span>3 år</span>
+                <span>Pilestredet i Oslo</span>
+                <span>Heltid</span>
+            </p>
+        </div>
+    </div>
+    <script src="swipe.js"></script>
+    
+<!--Studenthistorier knapp-->
+    <div class="separator"></div>
+    
+    <a href="https://www.oslomet.no/studier/studenthistorier" class="more-stories">Flere studenthistorier &gt;</a>
+    
+    <div class="separator"></div>
 
     <!--Spørsmål knapp-->
     <label for="vinduPopup" class="spørsmål-knapp">
@@ -391,23 +508,6 @@
             <label for="vinduPopup" class="lukke-knapp"><i class="fa-solid fa-xmark"></i> Lukk</label>
             </div>
 
-            <!--Faglig Leder-->
-
-            <div class="Kontankt_informasjon">
-                <h2> Faglig leder</h2>
-                <div class="Profil">
-                    <a href="https://www.oslomet.no/om/ansatt/krhel3944/">
-                        <img  src="https://gw-oslomet.intark.uh-it.no/ansattbilde/krhel3944"
-                        width="100"       height="120"  alt="ProfilBilde"> 
-                    </a>
-                <div class="ProfilInfo">
-                    <h3>Kristoffer Herland Hellton</h3>
-                    <p>førsteamanuensis</p>
-                    <a href="mailto:kristoffer.hellton@oslomet.no">kristoffer.hellton@oslomet.no</a><br>
-                    <a href="tel:+47 672 37 240">+47 672 37 240</a>
-                </div>     
-            </div>
-        </div>
 
             <!--Footer-->
             <footer>
@@ -460,7 +560,7 @@
 
                         </div>
     
-            </footer> 
+            </footer>
     </body>
 
 </html>
