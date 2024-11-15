@@ -13,7 +13,7 @@ body{
 
 
 header{
-    background-color: #ffd500;
+    background-color: rgba(153, 205, 50, 0.357);
     color: black;
     padding: 10px 0;
 }
@@ -75,15 +75,15 @@ nav{
 
 }
 .nav-links li a:hover{
-    background-color: #dfba00;
+    background-color: rgba(153, 205, 50, 0.357);
     border-radius: 10px;
 }
 
 
 /*HAMBURGER MENU*/
 :root{
-    --primary-color: #ffd500;
-    --overlay-color:  rgb(255, 212, 0);
+    --primary-color: rgba(153, 205, 50, 0);
+    --overlay-color:  rgba(153, 205, 50, 0.357);
     --menu-speed: 0.75s;
 }
 
@@ -205,7 +205,7 @@ nav{
 }
 
 .menu-wrap .menu > div {
-    background: rgba(255,212,0,0.85); /* eller bruke   --overlay-color:  rgb(255, 212, 0); for ikke en see throg bakgrunn*/
+    background: rgba(255, 231, 113, 0.85); /* eller bruke   --overlay-color:  rgb(255, 212, 0); for ikke en see throg bakgrunn*/
     border-radius: 40%;/* det som lager den ovale gjennomsiktige siden */
     width: 200vw;
     height: 200vw;
@@ -541,7 +541,6 @@ a:hover{
     transition: all 0.4s ease;
 
 }
-
 
 section.menu-container .burger-icon > div::before,
 section.menu-container .burger-icon > div::after{
