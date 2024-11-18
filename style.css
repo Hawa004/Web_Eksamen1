@@ -18,15 +18,16 @@ header{
     padding: 10px 0;
 }
 main{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-left: 140px;
-    padding-right: 140px;
+    max-width: 80%;
+    width: auto;
+    margin: 0 auto;
 }
+
 
 p, h3{
     padding-top: 5px;
@@ -264,7 +265,6 @@ nav{
     justify-content: center;
     transform: scale(0);
     transition: all 0.4s ease;
-
 }
 
 .menu-wrap .menu > div > div {
@@ -323,7 +323,8 @@ nav{
     padding-bottom: 10px;
 }
 .hovedbilde2{
-    max-width: 960px;
+    max-width: 100%;
+    max-height: 100%;
     height:auto; 
     width: auto;
     display: flex;
@@ -332,14 +333,14 @@ nav{
 /*Student Oversikt*/
 .beskrivelse{
     background-color: #f3ecad69;
-    max-width: 960px;
+    max-width: 100%;
     max-height: none;
     width: auto;
     height: auto;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -354,26 +355,26 @@ nav{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 255px;
-    width: auto;
     text-align: left;
 }
 
 .stikkers{
-    height: 40px;
-    width: 40px;
+    max-height: 40px;
+    max-width: 40px;
+    height: auto;
+    width: auto;
     display: flex;
 }
 .undertext{
     border-bottom: 1px solid rgba(0, 0, 0, 0.18); 
-    width: 165px;
+    width: 185px;
     text-align: left;
     display: flex;
 }
 
 /*studie oppbygning*/
 .box{/*i denne boxen/section ligger studieoppbygnings innhold*/
-    max-width: 960px;
+    max-width: 100%;
     max-height: none;
     width: auto;
     height: auto;
@@ -385,23 +386,8 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: baseline;
-
-}
-/*de neste tre stylene her gjør at innholdet går fra 3 boxer til 2 til 1*/
-.box >.setup {
-    flex: 0 1 calc (33.333% - 20px);
-}
-@media screen and (max-width: 900px) {
-    .box > .setup {
-        flex: 0 1 calc(50% - 20px);  
-    }
-}
-@media screen and (max-width: 600px) {
-    .box > .setup {
-        flex: 0 1 100%;  
-    }
 }
 .box > .setup > a.id { /*fjerner undertext linje desorationen*/
     text-decoration: none;
@@ -409,7 +395,8 @@ nav{
 
 
 .setup{ /*er de individuelle studieoppbygnings boxene, gir de forskjellige størrelse og egenskaper*/
-    width: 270px;
+    max-width: 275px;
+    width: 275px;
     height: 70px;
     border-radius: 10px;
     margin: 5px;
@@ -566,7 +553,6 @@ table, td, th{
 .mindre{
     width: 75px;
 }
-
 
 a{
     text-decoration: underline 2px;
