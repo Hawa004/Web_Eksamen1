@@ -657,25 +657,6 @@ a.more-stories{
     background-color: rgba(153, 205, 50, 0.407);
 }
 
-
-/*Spørsmål Knapp*/
-.spørsmål-knapp {
-    background-color: black;
-    color: #ffd400;
-    font-size: 1rem;
-    text-align: center;
-    margin-left: auto;
-    padding: 10px 15px;
-    border: 2px solid black;
-    border-radius: 33px;
-    cursor: pointer;
-    box-shadow: 1px 4px 1px black;
-}
-.fa-beat{
-    font-size: 0.875em;
-    color:#ffd400;
-}
-
 /* Spørsmål om utdanning */
 .container-text-center{
     display: block;
@@ -725,6 +706,158 @@ a.more-stories{
 
 .boxes p span {
     display: block;
+}
+
+/*Spørsmål knapp*/
+.spørsmål-knapp {
+    background-color: black;
+    color: #ffd400;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 33px;
+    cursor: pointer;
+    box-shadow: 1px 4px 1px black;
+}
+
+.fa-beat{
+    font-size: 0.875em;
+    color:#ffd400;
+}
+
+.vindu-popup:checked ~ .tilbakemelding-popup {
+    display: block;
+}
+
+
+.popup-innhold h2 {
+    color:black;
+    font-size: 1.125rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.fa-thumbs-up,.fa-thumbs-down {
+    background-color: #141313;
+    color: #ffd400;
+    display: flex;
+    font-size: 1.5em;
+    border: 1px none;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    justify-content: center;
+    gap: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    transform: scale(1.1);
+
+}
+
+
+.fa-thumbs-up:hover,.fa-thumbs-down:hover{
+    background-color: #ddd;
+}
+
+.thumbs-checkbox{
+    display: none;
+}
+
+.thumbs-up:checked + .fa-thumbs-up {
+    color:white;
+    background-color: rgba(44, 199, 30, 0.296);
+    box-shadow: 0px 2px 4px black;
+    transform: scale(1.0);
+}
+
+.thumbs-up:checked ~ .thumbs-checkbox.thumbs-down:checked + .fa-thumbs-down{
+    background-color: black;
+    color:#ffd400
+} 
+
+.thumbs-down:checked + .fa-thumbs-down {
+    background-color: rgba(44, 199, 30, 0.296);
+    transform: scale(1.0);
+    box-shadow: 0px 2px 4px black;
+    color:white;
+}
+
+.thumbs-down:checked ~ .thumbs-checkbox.thumbs-up:checked + .fa-thumbs-up{
+    background-color: black;
+    color:#ffd400
+} 
+
+
+
+.tilbakemelding-icon{
+    display: flex;
+    margin: 10px 0;
+    font-size: 24px;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.popup-innhold p {
+    font-size: 0.875rem;
+    margin: 10px 0;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 89%;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+
+.send-knapp{
+    width: 100px;
+    background-color: black;
+    color: #ffd400;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    
+}
+
+
+.send-knapp:hover{
+    background-color: #ddd;
+    
+
+}
+
+.lukke-link {
+    display: block;
+    color: black;
+    font-size: 0.75em;
+    text-decoration: underline;
+    text-align: left;
+    cursor: pointer;
+}
+
+.lukke-knapp{
+    width: none;
+    color: black;
+    display: block;
+    border-radius: 0 0 5px 5px;
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.fa-xmark{
+    font-size: 0.9375em;
 }
 
 

@@ -28,9 +28,9 @@
 
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="#accessibility.html">Accessibility</a></li>
-                        <li><a href="#github.html">Github</a></li>
-                        <li><a href="#activity.html">Activity</a></li>
+                        <li><a href="sub-folder/accessibility.html">Accessibility</a></li>
+                        <li><a href="/sub-folder/github.html">Github</a></li>
+                        <li><a href="/sub-folder/activity.html">Activity</a></li>
                         <!--Seachbar-->
                         <li class="search-container">
                             <form action="/serch" method="GET">
@@ -605,7 +605,31 @@
                 </div>
             </div>
             
-        
+            <!--Spørsmål knapp-->
+            <label for="vinduPopup" class="spørsmål-knapp">
+                Spørsmål 
+                <i class="fa-sharp-duotone fa-solid fa-circle-question fa-beat"></i>
+            </label>
+            <input type="checkbox" id="vinduPopup" class="vindu-popup">
+
+            <div class="tilbakemelding-popup">
+                <div class="popup-innhold">
+                    <h2>Spørsmål?</h2>
+                    <div class ="tilbakemelding-icon">
+                        <input type="checkbox" id="thumbs-up"  class="thumbs-checkbox thumbs-up">
+                        <label for="thumbs-up" class="fa-solid fa-thumbs-up"></label>
+
+                        <input type="checkbox" id="thumbs-down" class="thumbs-checkbox thumbs-down">
+                        <label for="thumbs-down" class="fa-solid fa-thumbs-down"></label>
+                    </div>
+                    <p>NB! ikke legg igjen personlig info</p>
+                    <p>Hendvendelser blir ikke svart.</p>
+                    <textarea placeholder="Hva lurer du på? Skriv her."></textarea>
+                    <button class="send-knapp">Send inn</button>
+                    <label for="vinduPopup" class="lukke-link">Ikke vis dette igjen</label>
+                </div>
+                <label for="vinduPopup" class="lukke-knapp"><i class="fa-solid fa-xmark"></i> Lukk</label>
+            </div>
 
     
     
