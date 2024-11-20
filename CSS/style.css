@@ -737,22 +737,21 @@ a.more-stories{
 
 .fa-beat{
     font-size: 0.875em;
-    color:black;
+    color:rgb(0, 0, 0);
 }
-
 
 .vindu-popup{
     display: none;
 }
 
 .tilbakemelding-popup{
-    background-color: #f3e7ad;
+    background-color:rgb(255, 247, 207);
     display: none;
     position: fixed;
     transform: translate(-16px,-8px);
     padding: 20px;
-    box-shadow: 0px 4px 8px black;
-    border: 2px solid black;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.205);
+    border: 1px solid rgba(153, 205, 50, 0.357);
     border-radius: 30px;
     bottom: 8px;
     right: 16px;
@@ -773,8 +772,8 @@ a.more-stories{
 }
 
 .fa-thumbs-up,.fa-thumbs-down {
-    background-color: #141313;
-    color: #ffd400;
+    background-color: rgba(153, 205, 50, 0.357);
+    color: black;
     display: flex;
     font-size: 1.5em;
     border: 1px none;
@@ -788,7 +787,6 @@ a.more-stories{
     transform: scale(1.1);
 
 }
-
 
 .fa-thumbs-up:hover,.fa-thumbs-down:hover{
     background-color: #ddd;
@@ -822,8 +820,6 @@ a.more-stories{
     color:#ffd400
 } 
 
-
-
 .tilbakemelding-icon{
     display: flex;
     margin: 10px 0;
@@ -831,8 +827,6 @@ a.more-stories{
     justify-content: center;
     gap: 20px;
 }
-
-
 
 .popup-innhold p {
     font-size: 0.875rem;
