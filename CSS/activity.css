@@ -16,7 +16,7 @@ body {
 
 /* Header Section with Parallax */
 header.parallax {
-    background-image: url('pangong-tso-7519104_1280.jpg');
+    background-image: url('/images/pangong.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -147,10 +147,10 @@ header p {
     position: relative;
 }
 .parallax-scenic-roads {
-    background-image: url('rider-1646754_1280.jpg');
+    background-image: url('/images/rider.jpg');
 }
 .parallax-night-sky {
-    background-image: url('milky-way-8153503_1280.jpg');
+    background-image: url('/images/milkyway.jpg');
 }
 .parallax .overlay {
     background: rgba(0, 0, 0, 0.4);
