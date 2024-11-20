@@ -2,7 +2,7 @@ function redirect(url) {
     window.location.href = url;
 }
 
-/*Accessibility */
+/*Activity page*/
 
 // Lightbox functionality for images
 const lightbox = document.getElementById("lightbox");
