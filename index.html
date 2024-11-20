@@ -7,6 +7,7 @@
         <link rel="icon" type="image/png" href="images/oslometLogo.png">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="swipe.js"></script>
     </head>
 
     <body>
@@ -24,15 +25,23 @@
                             <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
                         </div>
                 </div>
-                
+
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="#accessibility">Accessibility</a></li>
-                        <li><a href="#github">Github</a></li>
-                        <li><a href="#activity">Activity</a></li>
+                        <li><a href="sub-folder/accessibility.html">Accessibility</a></li>
+                        <li><a href="/sub-folder/github.html">Github</a></li>
+                        <li><a href="/sub-folder/activity.html">Activity</a></li>
+                        <!--Seachbar-->
+                        <li class="search-container">
+                            <form action="/serch" method="GET">
+                                <input type="text" placeholder="Søk.." name="search" required/>
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </li>
                     </ul>
                 </nav>
             </div>
+             
 
             <!--Hamburger menu-->
             <div class="menu-wrap">
@@ -62,12 +71,12 @@
                 <h1><strong>Matematisk modellering og datavitenskap-<br>ingniør</br></strong></h1>
                 <p id="bachelorprogram">Bachelorprogram</p>
            
-                <p id="beskrivelse">Få innsikt i matematiske modeller og datadrevne metoder som kan løse mange praktiske<br> og 
+                <p id="beskrivelse">Få innsikt i matematiske modeller og datadrevne metoder som kan løse mange praktiske og 
                 samfunnsnyttige oppgaver.</p>
                 <img src="https://www.oslomet.no/var/oslomet/storage/images/1/0/2/1/391201-36-nor-NO/17197440d538-matematisk-modellering-datavitenskap-bachelor.jpg" 
                 alt="Hovedbilde"
-                width="575"   height="320"
-                class="Hovedbilde2">
+                width="960"   height="450"
+                class="hovedbilde2">
             </section>
 
 
@@ -147,6 +156,24 @@
                     </div>
                 </div>
             </section>
+
+            <!--Faglig Leder-->
+            <div class="faglig-leder">
+                <h2> Faglig leder</h2>
+                <div class="Profil">
+                    <a href="https://www.oslomet.no/om/ansatt/krhel3944/">
+                        <img  src="https://gw-oslomet.intark.uh-it.no/ansattbilde/krhel3944"
+                        width="150px"       height="auto"  alt="ProfilBilde"> 
+                    </a>
+                </div>
+                <div>
+                    <h3>Kristoffer Herland Hellton</h3>
+                    <p>Førsteamanuensis</p>
+                    <a href="mailto:kristoffer.hellton@oslomet.no">kristoffer.hellton@oslomet.no</a><br>
+                    <a href="tel:+47 672 37 240">+47 672 37 240</a>
+                </div>     
+                
+            </div>
 
             <!--Studies oppbygning-->
             <section class="box">
@@ -466,16 +493,16 @@
 
             <!--Studenthistorier med video-->
             <h2 class="title">Studenthistorier</h2>
-            <section class="container">
-       
-            <section>
-                <div class="link-container">
-                    <a href="https://www.oslomet.no/studier/studenthistorier?student_story=147"><strong>Teknologi og design</strong></a>
-                </div>        
-                <h3><strong>Spå fremtiden med matematikk og datavitenskap</strong></h3>
-                <p>Har du lyst til å finne ut hva som vil skje i fremtiden? Lær å bruk verktøy 
-                 for å forutsi alt fra været til strømprisene til utviklingen i bolig markedet.
-                </p>
+            <section class="studenthistorier">
+                <div id="my-div">
+                    <a href="https://www.oslomet.no/studier/studenthistorier/spa-fremtiden-matematikk-datavitenskap" class="fill-div">
+                        <p class="link-container"><strong>Teknologi og design</strong></p>     
+                        <h3><strong>Spå fremtiden med matematikk og datavitenskap</strong></h3>
+                        <p>Har du lyst til å finne ut hva som vil skje i fremtiden? Lær å bruk verktøy 
+                        for å forutsi alt fra været til strømprisene til utviklingen i bolig markedet.
+                        </p>
+                    </a>
+                </div>
                 <div class="Video-content">
                     <div class="video-cover">
                         <img src="images/bilde.png" alt="Video cover" class="image-cover" onclick="this.style.display='none'; this.nextElementSibling.style.display='block'; this.nextElementSibling.play();">
@@ -486,20 +513,177 @@
                 </div>
             </section>        
         
+            <!--Studenthistorier knapp-->
+            <section class="more-stories">
+                <a href="https://www.oslomet.no/studier/studenthistorier" class="more-stories">Flere studenthistorier</a>
+            </section>
+
+
+            <!--Spørsmål om utdanning-->
+            <div class="container-text-center">
+                <h2>Spørsmål om utdanningen?</h2>
+                <p>Har du spørsmål om utdanningen, kontakt oss gjennom vårt 
+                    <a href="https://www.oslomet.no/kontaktskjema#Jeg%20vil%20bli%20student" class="contact-link">kontaktskjema</a>.
+                </p>
+            </div>
+
+            <!-- Swipeable Boxes Section -->
+            <h2 class="title">Du er kanskje også interessert i disse?</h2>
+            <div class="container swipe-container">
+                <div class="boxes" onclick="redirect('https://www.oslomet.no/studier/tkd/anvendt-datateknologi')">
+                    <h2>Anvendt datateknologi</h2>
+                    <p><span>Bachelorprogram</span><span>3 år</span><span>Pilestredet i Oslo</span><span>Heltid</span></p>
+                </div>
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/bioteknologi-kjemiingenior'">
+                    <h2>Bioteknologi- og kjemiingeniør</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/byggingenior'">
+                    <h2>Byggingeniør</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/dataingenior'">
+                    <h2>Dataingeniør</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/elektronikkingenior'">
+                    <h2>Elektronikkingeniør</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/informasjonsteknologi'">
+                    <h2>Informasjonsteknologi</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/maskiningenior'">
+                    <h2>Maskiningeniør</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+
+                <div class="boxes" onclick="window.location.href='https://www.oslomet.no/studier/tkd/tre-termin-ingenior'">
+                    <h2>Tre-terminsordning til ingeniørutdanning</h2>
+                    <p>
+                        <span>Bachelorprogram</span>
+                        <span>3 år</span>
+                        <span>Pilestredet i Oslo</span>
+                        <span>Heltid</span>
+                    </p>
+                </div>
+            </div>
             
-        </section>
-        
+            <!--Spørsmål knapp-->
+            <label for="vinduPopup" class="spørsmål-knapp">
+                Spørsmål 
+                <i class="fa-sharp-duotone fa-solid fa-circle-question fa-beat"></i>
+            </label>
+            <input type="checkbox" id="vinduPopup" class="vindu-popup">
+
+            <div class="tilbakemelding-popup">
+                <div class="popup-innhold">
+                    <h2>Spørsmål?</h2>
+                    <div class ="tilbakemelding-icon">
+                        <input type="checkbox" id="thumbs-up"  class="thumbs-checkbox thumbs-up">
+                        <label for="thumbs-up" class="fa-solid fa-thumbs-up"></label>
+
+                        <input type="checkbox" id="thumbs-down" class="thumbs-checkbox thumbs-down">
+                        <label for="thumbs-down" class="fa-solid fa-thumbs-down"></label>
+                    </div>
+                    <p>NB! ikke legg igjen personlig info</p>
+                    <p>Hendvendelser blir ikke svart.</p>
+                    <textarea placeholder="Hva lurer du på? Skriv her."></textarea>
+                    <button class="send-knapp">Send inn</button>
+                    <label for="vinduPopup" class="lukke-link">Ikke vis dette igjen</label>
+                </div>
+                <label for="vinduPopup" class="lukke-knapp"><i class="fa-solid fa-xmark"></i> Lukk</label>
+            </div>
 
     
     
 
         </main> 
+        
 
+        <!--Footer-->
+        <footer>
+            <section class="footer-container">
+                <section class="footer-item">
+                    <h3><strong><bolde>OSLO METROPOLITAN UNIVERSITY</bolde></strong><br>STORBYUNIVERSITETET</h3>
+                    <p>Postboks 4, St. Olavs plass</p>
+                    <p>0130 Oslo</p>
+                    <p>Tlf.: 67 23 50 00</p>
+                    <ul>
+                        <li><strong><a href="https://www.oslomet.no/om/kontakt">Kontakt oss</a></strong></li>  
+                    </ul> 
+                </section>
+                <div class="footer-item">
+                    <ul>
+                        <li><strong><a href="https://www.oslomet.no/en">English</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/alumni">Alumni</a></strong></li>
+                        <li><strong> <a href="https://www.oslomet.no/om/ansatteoversikt">Ansatteoversikt</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/om/arrangement/arrangementsoversikt">Arrangementsoversikt</a></li>
+                        <li><strong><a href="https://www.oslomet.no/om/for-ansatte">For Ansatte</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/om/ledige-stillinger">Ledige stillinger</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/om/personvernerklering-informasjonskapslar">Personvernerklæring og informasjonskapslar</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/om/pressekontakt">Pressekontakt</a></strong></li>
+                        <li><strong><a href="https://www.oslomet.no/om/tilgjengelegheitserklering">Tilgjengelegheitserklæring</a></strong></li>
+                        <li><strong><a href="">Admin</a></li><!--Var ikke en link tilgjengelig for denne-->
+                    </ul>
+                </div>
+                <section class="footer-item">
+                    <h3>Hold deg opptatert på hva som skjer på OsloMet. <div class="underline"><span></span></div></h3>
+                    <a href="https://www.oslomet.no/nyhetsbrev" class="abonner-knapp" target="_blank" rel="noopener" style="text-decoration: none;">Abonner på vårt nyhetsbrev!</a>
+                    <div class="sosiale-medier">
+                        <a href="https://www.facebook.com/oslomet/" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        Facebook</a>
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Foslomet" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        X (Twitter)</a>
+                        <a href="https://no.linkedin.com/school/oslomet/" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Linkedin</a>
+                        <a href="https://www.instagram.com/oslomet/?hl=nb" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        Instagram</a>
+                    </div>
+                </section>
+            </section>
+        </footer>
 
     </body>
-
-
-
-
-
 </html>

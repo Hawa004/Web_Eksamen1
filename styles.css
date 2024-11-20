@@ -158,15 +158,11 @@ nav{
 
 }
 
-
-
 .header-title {
     padding-left: 100px; 
     text-align: left; 
     
 }
-
-
 
 #Bachelorprogram {
     
@@ -198,9 +194,9 @@ nav{
     margin: 90px ;             
     font-family: Arial, sans-serif; 
     border: 2px;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: #f3ecad69;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f3ecad69;
  
 }
 
@@ -687,7 +683,7 @@ h1 {
     gap: 15px;
 }
 
-.box {
+.boxes {
     min-width: 250px;
     padding: 20px;
     background-color: #FFDC00;
@@ -700,23 +696,23 @@ h1 {
     flex-shrink: 0;
 }
 
-.box:hover {
+.boxes:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.box h2 {
+.boxes h2 {
     margin-bottom: 10px;
     font-size: 18px;
     color: #111;
 }
 
-.box p {
+.boxes p {
     font-size: 16px;
     line-height: 1.5;
 }
 
-.box p span {
+.boxes p span {
     display: block;
 }
 
