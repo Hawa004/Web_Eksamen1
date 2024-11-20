@@ -158,15 +158,11 @@ nav{
 
 }
 
-
-
 .header-title {
     padding-left: 100px; 
     text-align: left; 
     
 }
-
-
 
 #Bachelorprogram {
     
@@ -198,9 +194,9 @@ nav{
     margin: 90px ;             
     font-family: Arial, sans-serif; 
     border: 2px;
-  padding: 10px;
-  border-radius: 25px;
-  background-color: #f3ecad69;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f3ecad69;
  
 }
 
