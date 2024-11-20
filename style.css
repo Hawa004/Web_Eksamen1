@@ -710,21 +710,22 @@ a.more-stories{
 
 /*Spørsmål knapp*/
 .spørsmål-knapp {
-    background-color: black;
-    color: #ffd400;
+    background: linear-gradient(to right, rgba(255, 231, 113, 0.956), rgba(153, 205, 50, 0.357));
+    color: black;
     font-size: 1rem;
     text-align: center;
     margin-left: auto;
     padding: 10px 15px;
-    border: 2px solid black;
+    border: none;
     border-radius: 33px;
     cursor: pointer;
-    box-shadow: 1px 4px 1px black;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.205);
+    margin-top: 20px;
 }
 
 .fa-beat{
     font-size: 0.875em;
-    color:#ffd400;
+    color:black;
 }
 
 
