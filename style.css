@@ -727,6 +727,26 @@ a.more-stories{
     color:#ffd400;
 }
 
+
+.vindu-popup{
+    display: none;
+}
+
+.tilbakemelding-popup{
+    background-color: #f3e7ad;
+    display: none;
+    position: fixed;
+    transform: translate(-16px,-8px);
+    padding: 20px;
+    box-shadow: 0px 4px 8px black;
+    border: 2px solid black;
+    border-radius: 30px;
+    bottom: 8px;
+    right: 16px;
+    max-width: 300px;
+    z-index: 1000;
+}
+
 .vindu-popup:checked ~ .tilbakemelding-popup {
     display: block;
 }
