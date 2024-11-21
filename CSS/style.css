@@ -310,13 +310,13 @@ nav{
 #bachelorprogram {
     color: black;
     line-height: 1.5em;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 #beskrivelse {
     color: black;
     line-height: 1.5em;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     padding-bottom: 10px;
 }
 .hovedbilde2{
@@ -659,11 +659,11 @@ a.more-stories{
 /*Faglig leder*/
 .faglig-leder{
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.081), -5px -5px 10px rgba(0, 0, 0, 0.081); 
     justify-items: center;
-    width: 250px;
+    width: 270px;
     display: block;
 }
 
@@ -673,7 +673,16 @@ a.more-stories{
     justify-items: center;
     text-align: center;
     margin: 20px;
-    width: 300px;
+    width: 400px;
+}
+.container-text-center h2{
+    font-size: 1.9rem;
+}
+.container-text-center p{
+    font-size: 1.3rem;
+}
+.container-text-center a{
+    font-style: italic;
 }
 
 /* Swipeable Boxes */
