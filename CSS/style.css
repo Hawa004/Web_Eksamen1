@@ -136,7 +136,6 @@ nav{
     --animation-duration: 0.75s;
 }
 
-/* Hamburger menu styles */
 .menu-container {
     top: 0;
     right: 0;
@@ -173,7 +172,7 @@ nav{
     cursor: pointer;
 }
 
-/* Hamburger line ( en av tre strekene man skal trykke på) */
+/* en av tre strekene man skal trykke på */
 .menu-container .burger-icon > div {
     position: relative;
     flex: none;
@@ -187,7 +186,7 @@ nav{
 
 }
 
-/* Top and bottom lines ( to av tre strekene man skal trykke på*/
+/* to av tre strekene man skal trykke på*/
 .menu-container .burger-icon > div::before,
 .menu-container .burger-icon > div::after{
     content: '';
@@ -201,18 +200,18 @@ nav{
 
 }
 
-/* Moves line down ( justerer på den nesderste streken */
+/* justerer på den nesderste streken */
 .menu-container .burger-icon > div::after{
     top:10px;
 }
 
-/* Toggler animate (klikk funksjonen) */
+/* klikk funksjonen */
 .menu-container .toggler:checked + .burger-icon > div {
     transform: rotate(136deg); /* roterer/ beveger på kappen litt når jeg trykker */
     background-color: black;
 }
 
-/* Turn lines into X */
+/* Linjene danner en X */
 .menu-container .toggler:checked + .burger-icon > div:before,
 .menu-container .toggler:checked + .burger-icon > div:after {
    top: 0;
@@ -222,12 +221,12 @@ nav{
    
 }
 
-/* Rotate on hover when checked */
+/* rotasjon */
 .menu-container .toggler:checked:hover + .hamburger > div {
     transform: rotate(226deg);
 }
 
-/* Show menu */
+/* vise menu */
 .menu-container .toggler:checked ~ .menu {
     visibility: visible;
 
@@ -309,9 +308,9 @@ nav{
     text-decoration: underline;
     
 }
-/*inspired by: https://www.youtube.com/watch?v=DZg6UfS5zYg&t=1863s*/
+/* Hamburger menu CSS inspired by: https://www.youtube.com/watch?v=DZg6UfS5zYg&t=1863s*/
 
-/*emne */
+/*EMNE */
 .header-title {
     text-align: left; 
     font-size: 2rem;
@@ -339,7 +338,7 @@ nav{
     display: flex;
 }
 
-/*Studie beskrivelse*/
+/*STUDIE BESKRIVELSE*/
 /*the CSS is also inspired by this youtube video https://youtu.be/dgzJ144DQHw?si=OdTAz-VucxgTVtSD */
 .beskrivelse{
     background-color: #f3ecad69;
@@ -383,7 +382,7 @@ nav{
 }
 
 
-/*studie oppbygning*/
+/*STUDIE OPPBYGNING*/
 .box{/*i denne boxen/section ligger studieoppbygnings innhold*/
     max-width: 100%;
     max-height: none;
@@ -585,7 +584,7 @@ a:hover{
     text-decoration-color: black;
 }
 
-/*Student historier*/
+/*STUDENT HISTORIER*/
 .title{
     font-size: 1.7rem;
     color: black;
@@ -650,7 +649,7 @@ a.fill-div{
 }
 
 
-/*Flere studenthistorier*/
+/*FLERE STUDENT HISTORIER*/
 .more-stories {
     display: flex;
     background-color: rgba(153, 205, 50, 0.173);
@@ -682,7 +681,7 @@ a.more-stories{
     justify-content: space-evenly;
 }
 
-/*Faglig leder*/
+/*FAGLIG LEDER*/
 .faglig-leder{
     border-radius: 10px;
     padding: 20px;
@@ -700,7 +699,7 @@ a.more-stories{
     line-height: 1.5em;
 }
 
-/* Spørsmål om utdanning */
+/* SPØRSMÅL OM UTDANNING */
 .container-text-center{
     justify-items: center;
     text-align: center;
@@ -721,7 +720,7 @@ a.more-stories{
     font-style: italic;
 }
 
-/* Swipeable Boxes */
+/* SWIPEABLE BOXES */
 .swipe-container {
     display: flex;
     overflow-x: auto;
@@ -765,7 +764,7 @@ a.more-stories{
     display: block;
 }
 
-/*Spørsmål knapp*/
+/*SPØRSMÅL KNAPP*/
 .spørsmål-knapp {
     background: linear-gradient(to right, rgba(255, 231, 113, 0.956), rgba(153, 205, 50, 0.357));
     color: black;
@@ -931,7 +930,7 @@ textarea {
 }
 
 
-/*Footer*/
+/*FOOTER*/
 footer{
     background: linear-gradient(to right, rgba(255, 231, 113, 0.956), rgba(153, 205, 50, 0.357));
     color: black;
@@ -1067,8 +1066,10 @@ ul li a:hover{
         transform: translateX(100%);
     }
 }
+/*footer CSS inspired by: https://www.youtube.com/watch?v=FRRlFLfdvBE&t=335s*/  
 
-/*Github page*/
+
+/*GITHUB PAGE*/
 
 .github{
     margin-top: 40px;
