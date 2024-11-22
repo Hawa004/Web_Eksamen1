@@ -454,9 +454,19 @@ nav{
     transition: all 0.3s 0.3s;
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     overflow-y:scroll !important;
     padding: 30px;
+}
+.cont a{
+    text-decoration: underline 2px;
+    text-decoration-color: gold;
+    color: black;
+}
+.cont li{
+    list-style: inside ;
+    text-align: left;
 }
 
 /*I "Hva lærer du?", er det show og hid for vise mere eller mindre text */
