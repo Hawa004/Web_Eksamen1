@@ -957,6 +957,10 @@ footer{
     
 }
 
+.footer-item li{
+    font-weight: bold;
+}
+
 .footer-item{
     flex-basis: 25%;
     padding: 10px;
@@ -982,7 +986,6 @@ footer.footer-item a{
 footer .footer-item a:hover{
     text-decoration: underline;
 }
-   
 
 .abonner-knapp{
     background-color: rgba(153, 205, 50, 0.484);
