@@ -254,8 +254,8 @@ nav{
 }
 
 .menu-wrap .menu > div {
-    background: rgba(255, 231, 113, 0.938); /* eller bruke   --overlay-color:  rgb(255, 212, 0); for ikke en see throg bakgrunn*/
-    border-radius: 40%;/* det som lager den ovale gjennomsiktige siden */
+    background: rgba(255, 231, 113, 0.938); 
+    border-radius: 40%;
     width: 200vw;
     height: 200vw;
     display: flex;
