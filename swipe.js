@@ -2,6 +2,7 @@ function redirect(url) {
     window.location.href = url;
 }
 
+
 /*Activity page*/
 
 // Lightbox functionality for images
