@@ -131,16 +131,18 @@ nav{
 
 /*HAMBURGER MENU*/
 :root{
-    --primary-color: rgba(153, 205, 50, 0);
-    --overlay-color:  rgba(153, 205, 50, 0.357);
-    --menu-speed: 0.75s;
+    --main-color: rgba(153, 205, 50, 0);
+    --transparent-color:  rgba(153, 205, 50, 0.357);
+    --animation-duration: 0.75s;
 }
 
 /* Hamburger menu styles */
 .menu-container {
     top: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -148,7 +150,7 @@ nav{
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 2;
+    z-index: 10000;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -160,11 +162,11 @@ nav{
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 1001;
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background: var(--primary-color);
+    background: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +178,7 @@ nav{
     flex: none;
     width: 100%;
     height: 2px;
-    background-color: #010101;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,22 +206,22 @@ nav{
 
 /* Toggler animate (klikk funksjonen) */
 .menu-container .toggler:checked + .burger-icon > div {
-    transform: rotate(135deg); /* roterer/ beveger på kappen litt når jeg trykker */
-
+    transform: rotate(136deg); /* roterer/ beveger på kappen litt når jeg trykker */
+    background-color: inherit;
 }
 
 /* Turn lines into X */
 .menu-container .toggler:checked + .burger-icon > div:before,
 .menu-container .toggler:checked + .burger-icon > div:after {
    top: 0;
-   transform: rotate(90deg);
+   transform: rotate(91deg);
    
    
 }
 
 /* Rotate on hover when checked */
 .menu-container .toggler:checked:hover + .hamburger > div {
-    transform: rotate(225deg);
+    transform: rotate(226deg);
 }
 
 /* Show menu */
@@ -230,13 +232,19 @@ nav{
 
 .menu-container .toggler:checked ~.menu > div {
     transform: scale(1);
-    transition-duration: var(--menu-speed);
+    transition-duration: var(--animation-duration);
 
 }
 
 .menu-container .toggler:checked ~.menu > div > div {
     opacity: 1;
-    transition: opacity 0.4s ease 0.4s;
+    transition: opacity 0.2s ease;
+
+}
+
+.menu-container .toggler:checked ~.menu > div {
+    transform: scale(1);
+    transition-duration: var(--animation-duration);
 
 }
 
@@ -251,6 +259,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 9999;
 }
 
 .menu-container .menu > div {
@@ -276,7 +285,7 @@ nav{
 
 .menu-container .menu > div > div > ul > li{
     list-style: none;
-    color:  #010101;
+    color:  black;
     font-size: 1.5rem;
     padding: 1rem;
 
@@ -297,6 +306,7 @@ nav{
     text-decoration: underline;
     
 }
+/*inspired by: https://www.youtube.com/watch?v=DZg6UfS5zYg&t=1863s*/
 
 /*emne */
 .header-title {
@@ -925,7 +935,9 @@ footer{
     padding: 20px 0;
     margin-top: 40px;
     width: 100%;
+    z-index: 1;
     position: relative;
+    
 }
 
 .footer-container{
