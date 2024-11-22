@@ -131,9 +131,9 @@ nav{
 
 /*HAMBURGER MENU*/
 :root{
-    --primary-color: rgba(153, 205, 50, 0);
-    --overlay-color:  rgba(153, 205, 50, 0.357);
-    --menu-speed: 0.75s;
+    --main-color: rgba(153, 205, 50, 0);
+    --transparent-color:  rgba(153, 205, 50, 0.357);
+    --animation-duration: 0.75s;
 }
 
 /* Hamburger menu styles */
@@ -164,7 +164,7 @@ nav{
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background: var(--primary-color);
+    background: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,7 +230,7 @@ nav{
 
 .menu-container .toggler:checked ~.menu > div {
     transform: scale(1);
-    transition-duration: var(--menu-speed);
+    transition-duration: var(--animation-duration);
 
 }
 
