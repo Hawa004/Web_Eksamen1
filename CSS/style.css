@@ -671,8 +671,7 @@ a.more-stories{
 /*faglig leder og spørsmål om utdanning*/
 .faglig-leder-og-spørsmål{
     display: flex;
-    justify-items: baseline;
-    align-items: baseline;
+    align-items: center;
     width: 100%;
     height: auto;
     flex-direction: row;
@@ -691,6 +690,7 @@ a.more-stories{
     width: auto;
     height: auto;
     align-content: center;
+    display: block;
 }
 .faglig-leder a{
     font-size: 1.0rem;
@@ -706,6 +706,7 @@ a.more-stories{
     width: auto;
     height: auto;
     align-content: center;
+    display: block;
 }
 .container-text-center h2{
     font-size: 1.9rem;
