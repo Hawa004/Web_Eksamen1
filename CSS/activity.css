@@ -215,7 +215,7 @@ header p {
 }
 .btn {
     padding: 12px 25px;
-    background: #ff5722;
+    background: #A32A00;
     color: #fff;
     border-radius: 5px;
     font-weight: bold;
@@ -350,7 +350,7 @@ header p {
 }
 .tips li span {
     font-weight: bold;
-    color: #007bff;
+    color: #0054B3;
 }
 
 /* Lightbox Styles */
