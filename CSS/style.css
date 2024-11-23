@@ -1077,13 +1077,13 @@ ul li a:hover{
     
 }
 
-.h1, h2{
+.github h1, .github h2{
     text-align: center;
     color: green;
     margin: 20px 0;
 }
 
- p.{
+ .github p{
     margin-bottom: 22px;
  }
  
