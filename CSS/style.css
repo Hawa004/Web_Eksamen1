@@ -1070,7 +1070,6 @@ ul li a:hover{
 
 
 /*GITHUB PAGE*/
-
 .github{
     margin-top: 40px;
     line-height: 1.5;
@@ -1082,15 +1081,15 @@ ul li a:hover{
     color: green;
     margin: 20px 0;
 }
-
- .github p{
-    margin-bottom: 22px;
- }
  
- .history, .specific {
+.github p{
+    margin-bottom: 22px;
+}
+ 
+.history, .specific {
     text-align: center;
     width: calc(50% - 10px)
- }
+}
 
 .history-container , .specific-container{
     display: flex;
