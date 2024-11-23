@@ -380,16 +380,3 @@ header p {
     color: #fff;
     cursor: pointer;
 }
-
-/* Footer */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1.5rem;
-    font-size: 1em;
-    position: relative;
-}
-footer p {
-    margin: 0;
-}

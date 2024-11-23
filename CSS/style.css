@@ -480,6 +480,12 @@ nav{
     list-style: inside ;
     text-align: left;
 }
+.cont h1{
+    font-size: 1.25rem;
+    line-height: 1,5em;
+    padding-bottom: 10px;
+    color: black;
+}
 
 /*I "Hva lærer du?", er det show og hid for vise mere eller mindre text */
 .hide{
@@ -533,6 +539,9 @@ nav{
     font-size: 0.8rem;
     color: rgba(0, 0, 0, 0.888);
 }
+.studie-muligheter h2{
+    font-size: 0.9rem;
+}
 .studie-muligheter a{
     text-decoration: none;
 }
@@ -554,6 +563,8 @@ table, td, th{
     padding: 8px;
     text-align: left;
 } 
+
+/*colors used for the table*/
 .color1{
     background-color: rgba(153, 205, 50, 0.138);
 }
@@ -697,6 +708,9 @@ a.more-stories{
 .faglig-leder a{
     font-size: 1.0rem;
     line-height: 1.5em;
+}
+.profil{
+    display: flex;
 }
 
 /* SPØRSMÅL OM UTDANNING */
