@@ -67,115 +67,131 @@
         <main>
             <article class="header-title">
                 <h1><strong>Accessibility</strong></h1>
-                <h2>Key changes</h2>
-                <p>
-                    <span class="text-decor">Design and functionality:</span>
-                    We replaced the video with a picture as it was more fitting. To be more functional, 
-                    we added the subject name at the top, and the bachelor program under the subject name for easier recognition of the program.
-                </p>
+                <section>
+                    <h2>Key changes</h2>
+                    <p>
+                        <span class="text-decor">Design and functionality:</span>
+                        We replaced the video with a picture as it was more fitting. To be more functional, 
+                        we added the subject name at the top, and the bachelor program under the subject name for easier recognition of the program.
+                    </p>
+                </section>
                 <section class="section">
                     <span class="bigger-images">
-                        <p>Original design</p>
-                        <img src="/images/Original.png" alt="Before - Original Design" width="500px" height="automated">
-                    </span>
-                    <span class="bigger-images">
-                        <p>Our design</p>
-                        <img src="/images/Sketch1.png" alt="After - Updated Design" width="500px" height="automated">
+                        <img src="/images/Original.png" alt="Before - Original Design" width="500px" height="auto">
+                        <img src="/images/Sketch1.png" alt="After - Updated Design" width="500px" height="auto">
                     </span>
                 </section>
-                <p>
-                    <span class="text-decor">Color:</span> The original color scheme is bright yellow, which represents OsloMet. 
-                    We opted for a softer color palette to balance out the contrast. 
-                    This ensures better readability of our website, especially for users sensitive to bright colors.
-                </p>
-                <p>
-                    <span class="text-decor">Length:</span> The original webpage was too long as all the information boxes were placed vertically. 
-                    By changing the structure to horizontal it allows the user to get all the information in one main table, without having to scroll back and forth. 
-                    This can be helpful to attain information more effectively.
-                </p>
+                <section class="section">
+                    <p>
+                        <span class="text-decor">Color:</span> The original color scheme is bright yellow, which represents OsloMet. 
+                        We opted for a softer color palette to balance out the contrast. 
+                        This ensures better readability of our website, especially for users sensitive to bright colors.
+                    </p>
+                    <p>
+                        <span class="text-decor">Length:</span> The original webpage was too long as all the information boxes were placed vertically. 
+                        By changing the structure to horizontal it allows the user to get all the information in one main table, without having to scroll back and forth. 
+                        This can be helpful to attain information more effectively.
+                    </p>
             
-                <h2>Testing tool</h2>
-                <p>To evaluate the accessibility of our website we used both manual and automated testing tools, such as Lighthouse and live server by Visual Studio Code.
+                    <h2>Testing tool</h2>
+                    <p>To evaluate the accessibility of our website we used both manual and automated testing tools, such as Lighthouse and live server by Visual Studio Code.
                     After fishing the website, we tested it with an automated testing tool, Lighthouse, which can help us to improve the quality of our website. 
                     The test revealed 
-                </p>
-                <section class="section" class="bigger-images">
-                    <img src="/images/AccessibilityScore1.png" alt="Score73" width="500px" height="automated">
-                    <img src="/images/AccessibilityDetail1.png" alt="Score73" width="500px" height="automated">
+                    </p>
+                    <span class="bigger-images">
+                        <img src="/images/AccessibilityScore1.png" alt="Score73"  width="500px" height="auto">
+                        <img src="/images/AccessibilityDetail1.png" alt="Score73"  width="500px" height="auto">
+                    </span>
                 </section>
-            
+
                 <h2>Two categories of improvements</h2>
-                <h3>1. Names and labels</h3>
-                <section class="section" class="bigger-images">
-                        <img src="/images/AccessibilityDetail2.png" alt="Names and labels" width="500px" height="automated">
+                <h2 class="text-color">1. Names and labels</h2>
+                <section class="section">
+                    <span class="bigger-images">
+                        <img src="/images/AccessibilityDetail2.png"  alt="Names and labels" width="500px" height="auto">
+                    </span>
+                    <p><span class="text-decor">Buttons:</span> In this area the report detected several buttons that do not have an accessible name. 
+                        This makes it difficult for screen readers to understand the purpose of the button.
+                    </p>
+                    <p><span class="text-decor">Changes made:</span>
+                        We added the button element in the html, and aria-label since we are using an icon. 
+                    </p>
                 </section>
-                <p>Buttons: In this area the report detected several buttons that do not have an accessible name. 
-                This makes it difficult for screen readers to understand the purpose of the button.
-                </p>
-                <p><strong>Changes made:</strong> 
-                    We added the button element in the html, and aria-label since we are using an icon. 
-                </p>
-                
+
+                <p class="text-color">Before:</p>
                 <section class="section">
                     <span class="code-changes-images">
-                        <p> Before:</p>
-                        <img src="/images/SearchButtonBefore.png" alt="SearchBefore"  class="Search-before" width="automated" height="30px">
-                    </span>
-                    <span class="code-changes-images">
-                        <p>After:</p>
-                        <img srcset="/images/SearchButtonAfter.png" alt="SearchAfter"  class="Search-After"  width="automated" height="30px">
+                        <img src="/images/SearchButtonBefore.png" alt="SearchBefore" width="auto" height="30px">
                     </span>
                 </section>
-                <p><strong>We made same changes here as well:</strong>
-                    <br>We gave the button and input an aria-label/label, 
+                <p class="text-color">After:</p>
+                <section class="section">
+                    <span class="code-changes-images">
+                        <img srcset="/images/SearchButtonAfter.png" alt="SearchAfter" width="auto" height="30px">
+                    </span>
+                </section>
+
+                <p><span class="text-decor"> We made same changes here as well:</span><br>
+                    We gave the button and input an aria-label/label, 
                     this allows screen readers to see the purpose of the icon, 
                     along side with just seeing it visually.
                 </p>
                 
+                <p class="text-color">Before:</p>
                 <section class="section">
                     <span class="code-changes-images">
-                    <p>Before:</p>
-                    <img src="/images/AccessibilityTogglerBefore.png" alt="TogglerBefore" class="Toggler-Before" width="automated" height="30px">
+                        <img src="/images/AccessibilityTogglerBefore.png" alt="TogglerBefore" width="auto" height="30px">
                     </span>
+                </section>
+                <p class="text-color">After:</p>
+                <section class="section">
                     <span class="code-changes-images">
-                    <p>After:</p>
-                    <img src="/images/AccessibilityTogglerAfter.png" alt="TogglerAfter" class="Toggler-After" width="automated" height="30px">
+                        <img src="/images/AccessibilityTogglerAfter.png" alt="TogglerAfter" width="auto" height="30px">
                     </span>
                 </section>
             
-                <p>2. Table and lists</p>
-                <section class="section" class="bigger-images">
-                    <img src="/images/AccessibilityDetail3.png" alt="Detail-List" width="500px" height="automated">
+                <h2 class="text-color">2. Table and lists</h2>
+                <section class="section">
+                    <span class="bigger-images">
+                        <img src="/images/AccessibilityDetail3.png" alt="Detail-List" width="500px" height="auto">
+                    </span>
                 </section>
-                <p><strong><u>Lists do not contain only list elements and script supporting elements</u></strong></p>
-                <p>The report identifies that some of the ul elements contain other elements that are not list , like "strong" and script".</p>
-                <p><strong>Changes made:</strong>For semantic reasons we can make sure that "ul" contains "li" elements. 
-                Instead of nesting "strong" inside "li", we can style it with CSS.  </p>
+
+                <p><span class="text-decor">Lists do not contain only list elements and script supporting elements </span> <br>
+                    The report identifies that some of the ul elements contain other elements that are not list , like "strong" and script".
+                </p>
+                <p><span class="text-decor">Changes made:</span> For semantic reasons we can make sure that "ul" contains "li" elements. 
+                    Instead of nesting "strong" inside "li", we can style it with CSS.  
+                </p>
             
-                <p><u><strong>List elements "li" are not contained within "ul", "ol" or "menu" parent elements. </p></u></strong>
-                <p>In this area the report identified that there exist "li" items that are not properly nested within the parent element, 
+                <p><span class="text-decor">List elements "li" are not contained within "ul", "ol" or "menu" parent elements.</span>
+                    In this area the report identified that there exist "li" items that are not properly nested within the parent element, 
                     this is rather challenging for screen readers to understand as it disturbs the sematic structure of the content. 
                 </p>
-                <p><strong>Changes made:</strong>
+                <p><span class="text-decor">Changes made:</span>
                     Nest all the items within the parent list.
                     Move script before ul. We also made changes to the CSS so we can get the look we wanted.
                 </p>
 
+                <p class="text-color">Before:</p>
                 <section class="section">
                     <span class="code-changes-images">
-                        <p>Before:</p>
-                        <img src="/images/AccessibilityListBefore.png" alt="ListBefore" width="automated" height="30px">
+                        <img src="/images/AccessibilityListBefore.png" alt="ListBefore" width="auto" height="30px">
                     </span>
+                </section>
+                <p class="text-color">After:</p>
+                <section class="section">
                     <span class="code-changes-images">
-                        <p>After:</p>
-                        <img src="/images/AccessibilityListAfter.png" alt="ListAfter" width="automated" height="30px">
-                
-                    </section>
+                        <img src="/images/AccessibilityListAfter.png" alt="ListAfter" width="auto" height="30px">
+                    </span>
+                </section>
             
-                <p>By making these changes we were able to maximize our accessibility to a score of 100.</p>
-                <section class="section" class="bigger-images">
-                    <img src="/images/AccessibilityScore100.png" alt="Score100" width="500px" height="automated">
-                    <img src="/images/AccessibilityScore2.png" alt="Score2" width="500px" height="automated">
+                <h2>By making these changes we were able to maximize our accessibility to a score of 100.</h2>
+                <section class="section">
+                    <span class="bigger-images">
+                        <img src="/images/AccessibilityScore100.png" alt="Score100" width="500px" height="auto">
+                        <img src="/images/AccessibilityScore2.png" alt="Score2" width="500px" height="auto">
+                    </span>
                 </section>
             </article>
         </main>
