@@ -1,247 +1,237 @@
 <!DOCTYPE html>
-<html lang ="no">
-    <head>
-        <meta charset="UTF-8">
-        <meta name = "viewport" content="width=device-width,initial-scale=1">
-        <title> Matematisk modellering og datavitenskap - ingeniør</title>
-        <link rel="icon" type="image/png" href="/images/oslometLogo.png">
-        <link rel="stylesheet" href="/CSS/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Matematisk modellering og datavitenskap - Ingeniør</title>
+    <link rel="icon" type="image/png" href="/images/oslometLogo.png">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <body> 
-        <header>
-            <!--Navbar-->
-            <section class="container1">
-                <div class="logo" id="#logo">
-                    <a href="https://www.oslomet.no/">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
-                        alt="OsloMet Logo"
-                        width="60"    height="35">
-                        </a>
-                        <div class="studentoversikt">
-                            <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
-                        </div>
+<body>
+    <header>
+        <!-- Navbar -->
+        <section class="container1">
+            <div class="logo" id="logo">
+                <a href="https://www.oslomet.no/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_of_Oslo_Metropolitan_University.svg/317px-Logo_of_Oslo_Metropolitan_University.svg.png" 
+                         alt="OsloMet Logo" width="60" height="35">
+                </a>
+                <div class="studentoversikt">
+                    <a href="https://www.oslomet.no/studier/studieoversikt">Studieoversikt</a>
                 </div>
+            </div>
 
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/sub-folder/accessibility.html">Accessibility</a></li>
-                        <li><a href="/sub-folder/github.html">Github</a></li>
-                        <li><a href="/sub-folder/activity.html">Activity</a></li>
-                        <!--Seachbar-->
-                        <li class="search-container">
-                            <form action="/serch" method="GET">
-                                <input type="text" placeholder="Søk.." name="search" required/>
-                                <button type="submit" aria-label="search"><i class="fa fa-search"></i></button>
-                            </form>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-             
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/sub-folder/accessibility.html">Accessibility</a></li>
+                    <li><a href="/sub-folder/github.html">Github</a></li>
+                    <li><a href="/sub-folder/activity.html">Activity</a></li>
+                    <!-- Searchbar -->
+                    <li class="search-container">
+                        <form action="/search" method="GET">
+                            <input type="text" placeholder="Søk.." name="search" required />
+                            <button type="submit" aria-label="search"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </section>
 
-            <!--Hamburger menu-->
-            <section class="menu-container">
-                <input type="checkbox" class="toggler" aria-label="checkbox">
-                <article class="burger-icon"><div></div></article>
-                <article class="menu">
+        <!-- Hamburger Menu -->
+        <section class="menu-container">
+            <input type="checkbox" class="toggler" aria-label="checkbox">
+            <article class="burger-icon"><div></div></article>
+            <article class="menu">
+                <div>
                     <div>
-                        <div>
-                            <ul>
-                                <li><a href="https://www.oslomet.no/studier">Studier</a></li>
-                                <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
-                                <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
-                                <li><a href="https://www.oslomet.no/ub">Universitetsbibiloteket</a></li>
-                                <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
-                                <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
-                                <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
-                            </ul>
-                        </div>
+                        <ul>
+                            <li><a href="https://www.oslomet.no/studier">Studier</a></li>
+                            <li><a href="https://www.oslomet.no/forskning">Forskning vår</a></li>
+                            <li><a href="https://www.oslomet.no/om/samarbeid">Samarbeid</a></li>
+                            <li><a href="https://www.oslomet.no/ub">Universitetsbiblioteket</a></li>
+                            <li><a href="https://www.oslomet.no/om">Om OsloMet</a></li>
+                            <li><a href="https://www.oslomet.no/om/kontakt">Kontakt</a></li>
+                            <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
+                        </ul>
                     </div>
-                </article> 
-            </section>
-        </header>
-      
-        <main>
-            <article class="header-title">
-                <h1><strong>Accessibility</strong></h1>
-                <section>
-                    <h2>Key changes</h2>
-                    <p>
-                        <span class="text-decor">Design and functionality:</span>
-                        We replaced the video with a picture as it was more fitting. To be more functional, 
-                        we added the subject name at the top, and the bachelor program under the subject name for easier recognition of the program.
-                    </p>
-                </section>
-                <section class="section">
-                    <span class="bigger-images">
-                        <img src="/images/Original.png" alt="Before - Original Design" width="500px" height="auto">
-                        <img src="/images/Sketch1.png" alt="After - Updated Design" width="500px" height="auto">
-                    </span>
-                </section>
-                <section class="section">
-                    <p>
-                        <span class="text-decor">Color:</span> The original color scheme is bright yellow, which represents OsloMet. 
-                        We opted for a softer color palette to balance out the contrast. 
-                        This ensures better readability of our website, especially for users sensitive to bright colors.
-                    </p>
-                    <p>
-                        <span class="text-decor">Length:</span> The original webpage was too long as all the information boxes were placed vertically. 
-                        By changing the structure to horizontal it allows the user to get all the information in one main table, without having to scroll back and forth. 
-                        This can be helpful to attain information more effectively.
-                    </p>
-            
-                    <h2>Testing tool</h2>
-                    <p>To evaluate the accessibility of our website we used both manual and automated testing tools, such as Lighthouse and live server by Visual Studio Code.
-                    After fishing the website, we tested it with an automated testing tool, Lighthouse, which can help us to improve the quality of our website. 
-                    The test revealed 
-                    </p>
-                    <span class="bigger-images">
-                        <img src="/images/AccessibilityScore1.png" alt="Score73"  width="500px" height="auto">
-                        <img src="/images/AccessibilityDetail1.png" alt="Score73"  width="500px" height="auto">
-                    </span>
-                </section>
-
-                <h2>Two categories of improvements</h2>
-                <h2 class="text-color">1. Names and labels</h2>
-                <section class="section">
-                    <span class="bigger-images">
-                        <img src="/images/AccessibilityDetail2.png"  alt="Names and labels" width="500px" height="auto">
-                    </span>
-                    <p><span class="text-decor">Buttons:</span> In this area the report detected several buttons that do not have an accessible name. 
-                        This makes it difficult for screen readers to understand the purpose of the button.
-                    </p>
-                    <p><span class="text-decor">Changes made:</span>
-                        We added the button element in the html, and aria-label since we are using an icon. 
-                    </p>
-                </section>
-
-                <p class="text-color">Before:</p>
-                <section class="section">
-                    <span class="code-changes-images">
-                        <img src="/images/SearchButtonBefore.png" alt="SearchBefore" width="auto" height="30px">
-                    </span>
-                </section>
-                <p class="text-color">After:</p>
-                <section class="section">
-                    <span class="code-changes-images">
-                        <img srcset="/images/SearchButtonAfter.png" alt="SearchAfter" width="auto" height="30px">
-                    </span>
-                </section>
-
-                <p><span class="text-decor"> We made same changes here as well:</span><br>
-                    We gave the button and input an aria-label/label, 
-                    this allows screen readers to see the purpose of the icon, 
-                    along side with just seeing it visually.
-                </p>
-                
-                <p class="text-color">Before:</p>
-                <section class="section">
-                    <span class="code-changes-images">
-                        <img src="/images/AccessibilityTogglerBefore.png" alt="TogglerBefore" width="auto" height="30px">
-                    </span>
-                </section>
-                <p class="text-color">After:</p>
-                <section class="section">
-                    <span class="code-changes-images">
-                        <img src="/images/AccessibilityTogglerAfter.png" alt="TogglerAfter" width="auto" height="30px">
-                    </span>
-                </section>
-            
-                <h2 class="text-color">2. Table and lists</h2>
-                <section class="section">
-                    <span class="bigger-images">
-                        <img src="/images/AccessibilityDetail3.png" alt="Detail-List" width="500px" height="auto">
-                    </span>
-                </section>
-
-                <p><span class="text-decor">Lists do not contain only list elements and script supporting elements </span> <br>
-                    The report identifies that some of the ul elements contain other elements that are not list , like "strong" and script".
-                </p>
-                <p><span class="text-decor">Changes made:</span> For semantic reasons we can make sure that "ul" contains "li" elements. 
-                    Instead of nesting "strong" inside "li", we can style it with CSS.  
-                </p>
-            
-                <p><span class="text-decor">List elements "li" are not contained within "ul", "ol" or "menu" parent elements.</span>
-                    In this area the report identified that there exist "li" items that are not properly nested within the parent element, 
-                    this is rather challenging for screen readers to understand as it disturbs the sematic structure of the content. 
-                </p>
-                <p><span class="text-decor">Changes made:</span>
-                    Nest all the items within the parent list.
-                    Move script before ul. We also made changes to the CSS so we can get the look we wanted.
-                </p>
-
-                <p class="text-color">Before:</p>
-                <section class="section">
-                    <span class="code-changes-images">
-                        <img src="/images/AccessibilityListBefore.png" alt="ListBefore" width="auto" height="30px">
-                    </span>
-                </section>
-                <p class="text-color">After:</p>
-                <section class="section">
-                    <span class="code-changes-images">
-                        <img src="/images/AccessibilityListAfter.png" alt="ListAfter" width="auto" height="30px">
-                    </span>
-                </section>
-            
-                <h2>By making these changes we were able to maximize our accessibility to a score of 100.</h2>
-                <section class="section">
-                    <span class="bigger-images">
-                        <img src="/images/AccessibilityScore100.png" alt="Score100" width="500px" height="auto">
-                        <img src="/images/AccessibilityScore2.png" alt="Score2" width="500px" height="auto">
-                    </span>
-                </section>
-            </article>
-        </main>
-
-        <!--Footer-->
-        <footer>
-            <section class="footer-container">
-                <section class="footer-item">
-                    <h3><strong><bolde>OSLO METROPOLITAN UNIVERSITY</bolde></strong><br>STORBYUNIVERSITETET</h3>
-                    <p>Postboks 4, St. Olavs plass</p>
-                    <p>0130 Oslo</p>
-                    <p>Tlf.: 67 23 50 00</p>
-                    <ul>
-                        <li><strong><a href="https://www.oslomet.no/om/kontakt">Kontakt oss</a></strong></li>  
-                    </ul> 
-                </section>
-                <div class="footer-item">
-                    <ul>
-                        <li><a href="https://www.oslomet.no/en">English</a></li>
-                        <li><a href="https://www.oslomet.no/alumni">Alumni</a></li>
-                        <li><a href="https://www.oslomet.no/om/ansatteoversikt">Ansatteoversikt</a></li>
-                        <li><a href="https://www.oslomet.no/om/arrangement/arrangementsoversikt">Arrangementsoversikt</a></li>
-                        <li><a href="https://www.oslomet.no/om/for-ansatte">For Ansatte</a></li>
-                        <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
-                        <li><a href="https://www.oslomet.no/om/ledige-stillinger">Ledige stillinger</a></li>
-                        <li><a href="https://www.oslomet.no/om/personvernerklering-informasjonskapslar">Personvernerklæring og informasjonskapslar</a></li>
-                        <li><a href="https://www.oslomet.no/om/pressekontakt">Pressekontakt</a></li>
-                        <li><a href="https://www.oslomet.no/om/tilgjengelegheitserklering">Tilgjengelegheitserklæring</a></li>
-                        <li><a href="">Admin</a></li><!--Var ikke en link tilgjengelig for denne-->
-                    </ul>
                 </div>
-                <section class="footer-item">
-                    <h3>Hold deg opptatert på hva som skjer på OsloMet. <div class="underline"><span></span></div></h3>
-                    <a href="https://www.oslomet.no/nyhetsbrev" class="abonner-knapp" target="_blank" rel="noopener" style="text-decoration: none;">Abonner på vårt nyhetsbrev!</a>
-                    <div class="sosiale-medier">
-                        <a href="https://www.facebook.com/oslomet/" target="_blank" rel="noopener">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        Facebook</a>
-                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Foslomet" target="_blank" rel="noopener">
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                        X (Twitter)</a>
-                        <a href="https://no.linkedin.com/school/oslomet/" target="_blank" rel="noopener">
-                        <i class="fa-brands fa-linkedin"></i>
-                        Linkedin</a>
-                        <a href="https://www.instagram.com/oslomet/?hl=nb" target="_blank" rel="noopener">
-                        <i class="fa-brands fa-square-instagram"></i>
-                        Instagram</a>
-                    </div>
-                </section>
+            </article>
+        </section>
+    </header>
+
+    <main>
+        <article class="header-title">
+            <h1><strong>Accessibility</strong></h1>
+            <section>
+                <h2>Key Changes</h2>
+                <p>
+                    <span class="text-decor">Design and functionality:</span> We replaced the video with a picture as it was more fitting. To be more functional, 
+                    we added the subject name at the top, and the bachelor program under the subject name for easier recognition of the program.
+                </p>
             </section>
-        </footer>
-    </body>
+            <section class="section">
+                <span class="bigger-images">
+                    <img src="/images/Original.png" alt="Before - Original Design" width="500px" height="auto">
+                    <img src="/images/Sketch1.png" alt="After - Updated Design" width="500px" height="auto">
+                </span>
+            </section>
+            <section class="section">
+                <p>
+                    <span class="text-decor">Color:</span> The original color scheme is bright yellow, which represents OsloMet. 
+                    We opted for a softer color palette to balance out the contrast. 
+                    This ensures better readability of our website, especially for users sensitive to bright colors.
+                </p>
+                <p>
+                    <span class="text-decor">Length:</span> The original webpage was too long as all the information boxes were placed vertically. 
+                    By changing the structure to horizontal it allows the user to get all the information in one main table, without having to scroll back and forth. 
+                    This can be helpful to attain information more effectively.
+                </p>
+
+                <h2>Testing Tool</h2>
+                <p>To evaluate the accessibility of our website, we used both manual and automated testing tools, such as Lighthouse and Live Server by Visual Studio Code.
+                    After finishing the website, we tested it with Lighthouse, which helped us improve the quality of our website. The test revealed improvements required in the following areas:
+                </p>
+                <span class="bigger-images">
+                    <img src="/images/AccessibilityScore1.png" alt="Score73" width="500px" height="auto">
+                    <img src="/images/AccessibilityDetail1.png" alt="Score73" width="500px" height="auto">
+                </span>
+            </section>
+
+            <h2>Two Categories of Improvements</h2>
+            <h2 class="text-color">1. Names and Labels</h2>
+            <section class="section">
+                <span class="bigger-images">
+                    <img src="/images/AccessibilityDetail2.png" alt="Names and Labels" width="500px" height="auto">
+                </span>
+                <p><span class="text-decor">Buttons:</span> In this area, the report detected several buttons that do not have an accessible name. 
+                    This makes it difficult for screen readers to understand the purpose of the button.
+                </p>
+                <p><span class="text-decor">Changes Made:</span> We added the button element in the HTML, and aria-label since we are using an icon.
+                </p>
+            </section>
+
+            <p class="text-color">Before:</p>
+            <section class="section">
+                <span class="code-changes-images">
+                    <img src="/images/SearchButtonBefore.png" alt="SearchBefore" width="auto" height="30px">
+                </span>
+            </section>
+            <p class="text-color">After:</p>
+            <section class="section">
+                <span class="code-changes-images">
+                    <img srcset="/images/SearchButtonAfter.png" alt="SearchAfter" width="auto" height="30px">
+                </span>
+            </section>
+
+            <p><span class="text-decor">We made similar changes here as well:</span><br>
+                We gave the button and input an aria-label/label, 
+                this allows screen readers to see the purpose of the icon alongside just seeing it visually.
+            </p>
+
+            <p class="text-color">Before:</p>
+            <section class="section">
+                <span class="code-changes-images">
+                    <img src="/images/AccessibilityTogglerBefore.png" alt="TogglerBefore" width="auto" height="30px">
+                </span>
+            </section>
+            <p class="text-color">After:</p>
+            <section class="section">
+                <span class="code-changes-images">
+                    <img src="/images/AccessibilityTogglerAfter.png" alt="TogglerAfter" width="auto" height="30px">
+                </span>
+            </section>
+
+            <h2 class="text-color">2. Table and Lists</h2>
+            <section class="section">
+                <span class="bigger-images">
+                    <img src="/images/AccessibilityDetail3.png" alt="Detail-List" width="500px" height="auto">
+                </span>
+            </section>
+
+            <p><span class="text-decor">Lists do not contain only list elements and script supporting elements:</span> <br>
+                The report identifies that some of the ul elements contain other elements that are not list items, like "strong" and script.
+            </p>
+            <p><span class="text-decor">Changes Made:</span> For semantic reasons, we ensured that "ul" contains only "li" elements. 
+                Instead of nesting "strong" inside "li", we styled it with CSS.  
+            </p>
+
+            <p><span class="text-decor">List elements "li" are not contained within "ul", "ol" or "menu" parent elements:</span>
+                In this area, the report identified "li" items that are not properly nested within a parent element, 
+                making it challenging for screen readers to understand as it disturbs the semantic structure of the content. 
+            </p>
+            <p><span class="text-decor">Changes Made:</span>
+                We nested all the items within the parent list.
+                Additionally, moved script before ul. We also adjusted the CSS to achieve the desired appearance.
+            </p>
+
+            <p class="text-color">Before:</p>
+            <section class="section">
+                <span class="code-changes-images">
+                    <img src="/images/AccessibilityListBefore.png" alt="ListBefore" width="auto" height="30px">
+                </span>
+            </section>
+            <p class="text-color">After:</p>
+            <section class="section">
+                <span class="code-changes-images">
+                    <img src="/images/AccessibilityListAfter.png" alt="ListAfter" width="auto" height="30px">
+                </span>
+            </section>
+
+            <h2>By making these changes, we were able to maximize our accessibility to a score of 100.</h2>
+            <section class="section">
+                <span class="bigger-images">
+                    <img src="/images/AccessibilityScore100.png" alt="Score100" width="500px" height="auto">
+                    <img src="/images/AccessibilityScore2.png" alt="Score2" width="500px" height="auto">
+                </span>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer-container">
+            <section class="footer-item">
+                <h3><strong>OSLO METROPOLITAN UNIVERSITY</strong><br>STORBYUNIVERSITETET</h3>
+                <p>Postboks 4, St. Olavs plass</p>
+                <p>0130 Oslo</p>
+                <p>Tlf.: 67 23 50 00</p>
+                <ul>
+                    <li><strong><a href="https://www.oslomet.no/om/kontakt">Kontakt oss</a></strong></li>  
+                </ul> 
+            </section>
+            <div class="footer-item">
+                <ul>
+                    <li><a href="https://www.oslomet.no/en">English</a></li>
+                    <li><a href="https://www.oslomet.no/alumni">Alumni</a></li>
+                    <li><a href="https://www.oslomet.no/om/ansatteoversikt">Ansatteoversikt</a></li>
+                    <li><a href="https://www.oslomet.no/om/arrangement/arrangementsoversikt">Arrangementsoversikt</a></li>
+                    <li><a href="https://www.oslomet.no/om/for-ansatte">For Ansatte</a></li>
+                    <li><a href="https://www.oslomet.no/om/for-studenter">For studenter</a></li>
+                    <li><a href="https://www.oslomet.no/om/ledige-stillinger">Ledige stillinger</a></li>
+                    <li><a href="https://www.oslomet.no/om/personvernerklering-informasjonskapslar">Personvernerklæring og informasjonskapslar</a></li>
+                    <li><a href="https://www.oslomet.no/om/pressekontakt">Pressekontakt</a></li>
+                    <li><a href="https://www.oslomet.no/om/tilgjengelegheitserklering">Tilgjengelegheitserkleræring</a></li>
+                    <li><a href="#">Admin</a></li>
+                </ul>
+            </div>
+            <section class="footer-item">
+                <h3>Hold deg oppdatert på hva som skjer på OsloMet.</h3>
+                <a href="https://www.oslomet.no/nyhetsbrev" class="abonner-knapp" target="_blank" rel="noopener" style="text-decoration: none;">Abonner på vårt nyhetsbrev!</a>
+                <div class="sosiale-medier">
+                    <a href="https://www.facebook.com/oslomet/" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Foslomet" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-square-x-twitter"></i> X (Twitter)</a>
+                    <a href="https://no.linkedin.com/school/oslomet/" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    <a href="https://www.instagram.com/oslomet/?hl=nb" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-square-instagram"></i> Instagram</a>
+                </div>
+            </section>
+        </section>
+    </footer>
+</body>
 </html>
