@@ -160,7 +160,7 @@ body {
 
 /* Header Section with Parallax */
 header.parallax {
-    background-image: url('/images/pangong.jpg');
+    background-image: url('../images/pangong.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
