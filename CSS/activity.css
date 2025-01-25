@@ -314,11 +314,11 @@ header p {
 }
 
 .parallax-scenic-roads {
-    background-image: url('/images/rider.jpg');
+    background-image: url('../images/rider.jpg');
 }
 
 .parallax-night-sky {
-    background-image: url('/images/milkyway.jpg');
+    background-image: url('../images/milkyway.jpg');
 }
 
 .parallax .overlay {
