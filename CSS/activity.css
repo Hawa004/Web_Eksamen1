@@ -309,16 +309,24 @@ header p {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 50vh;
     position: relative;
 }
 
 .parallax-scenic-roads {
     background-image: url('../images/rider.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .parallax-night-sky {
     background-image: url('../images/milkyway.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .parallax .overlay {
