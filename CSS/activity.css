@@ -318,7 +318,12 @@ header p {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    color: #fff;
+    text-align: center;
 }
 
 .parallax-night-sky {
@@ -326,7 +331,7 @@ header p {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .parallax .overlay {
