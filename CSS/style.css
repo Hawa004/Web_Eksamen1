@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
     
     /*Giving the body some style*/
-    body{
+body{
     font-family: Arial, sans-serif;
     background-color: white;
     align-items: center;
-    }
+}
     
     
     header{
@@ -334,7 +334,7 @@
     font-size: 1.4rem;
     }
     
-    #beskrivelse {
+    #beskrivelse-outer-box {
     color: black;
     line-height: 1.5em;
     font-size: 1.15rem;
@@ -350,7 +350,7 @@
     
     /*STUDIE BESKRIVELSE*/
     /*the CSS is also inspired by this youtube video https://youtu.be/dgzJ144DQHw?si=OdTAz-VucxgTVtSD */
-    .beskrivelse{
+    .beskrivelse-outer-box{
     background-color: #f3ecad69;
     max-width: 100%;
     max-height: none;
@@ -367,7 +367,7 @@
     align-items: baseline;
     }
     
-    .besk{
+    .beskrivelse-inner-box{
     flex-wrap: wrap;
     display: flex;
     align-items: center;
