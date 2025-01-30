@@ -9,6 +9,15 @@
     --transparent-color:  rgba(153, 205, 50, 0.357);
     --animation-duration: 0.75s;
     }
+
+    @keyframes moving{ /*Brukes til animasjon til footer*/
+        0%{
+        transform: translateX(-100%);
+        }
+        100%{
+        transform: translateX(100%);
+        }
+        }
     
     /*Giving the body some style*/
 body{
@@ -1083,14 +1092,7 @@ body{
     animation: moving 2s linear infinite;
     }
     
-    @keyframes moving{
-    0%{
-    transform: translateX(-100%);
-    }
-    100%{
-    transform: translateX(100%);
-    }
-    }
+
     /*footer CSS inspired by: https://www.youtube.com/watch?v=FRRlFLfdvBE&t=335s*/
     
     
