@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{ /*Mostly for the hamburger menu*/
+    --main-color: rgba(153, 205, 50, 0);
+    --transparent-color:  rgba(153, 205, 50, 0.357);
+    --animation-duration: 0.75s;
+    }
     
     /*Giving the body some style*/
 body{
@@ -130,11 +136,6 @@ body{
     
     
     /*HAMBURGER MENU*/
-    :root{
-    --main-color: rgba(153, 205, 50, 0);
-    --transparent-color:  rgba(153, 205, 50, 0.357);
-    --animation-duration: 0.75s;
-    }
     
     .menu-container {
     top: 0;
@@ -200,7 +201,7 @@ body{
     
     }
     
-    /* justerer pÃ¥ den nesderste streken */
+    /* justerer på den nesderste streken */
     .menu-container .burger-icon > div::after{
     top:10px;
     }
