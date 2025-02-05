@@ -99,9 +99,10 @@ body{
     color: black;
     text-decoration: none;
     padding: 10px 15px;
+    border-radius: 10px;
     display: inline-block;
     transition: background-color 0.3s;
-    border-radius: 10px;
+  
     
     }
     .nav-links li a:hover{
