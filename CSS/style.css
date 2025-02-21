@@ -188,7 +188,7 @@ nav{
     cursor: pointer;
 }
     
-/* en av tre strekene man skal trykke pÃ¥ */
+/* en av tre strekene man skal trykke på */
 .menu-container .burger-icon > div {
     position: relative;
     flex: none;
@@ -201,7 +201,7 @@ nav{
     transition: all 0.4s ease;
 }
     
-/* to av tre strekene man skal trykke pÃ¥*/
+/* to av tre strekene man skal trykke på*/
     .menu-container .burger-icon > div::before,
     .menu-container .burger-icon > div::after{
     content: '';
@@ -220,7 +220,7 @@ nav{
     
 /* klikk funksjonen */
     .menu-container .toggler:checked + .burger-icon > div {
-    transform: rotate(136deg); /* roterer/ beveger pÃ¥ kappen litt nÃ¥r jeg trykker */
+    transform: rotate(136deg); /* roterer/ beveger på kappen litt når jeg trykker */
     background-color: black;
 }
     
@@ -396,7 +396,7 @@ nav{
 }
     
 /*STUDIE OPPBYGNING*/
-.box{/*i denne boxen/section ligger studieoppbygnings innhold*/
+.box{/*i denne boksen/section ligger studieoppbygnings innhold*/
     max-width: 100%;
     max-height: none;
     width: auto;
@@ -510,7 +510,7 @@ nav{
     color: black;
 }
     
-/*I "Hva lÃ¦rer du?", er det show og hid for vise mere eller mindre text */
+/*I "Hva lærer du?", er det show og hid for vise mere eller mindre text */
 .hide{
     display: none;
 }
@@ -718,7 +718,7 @@ a.more-stories{
     background-color: rgba(153, 205, 50, 0.407);
 }
     
-/*faglig leder og spÃ¸rsmÃ¥l om utdanning*/
+/*faglig leder og spørsmål om utdanning*/
 .faglig-leder-og-spÃ¸rsmÃ¥l{
     display: flex;
     align-items: center;
@@ -752,7 +752,7 @@ a.more-stories{
     display: flex;
 }
     
-/* SPÃ˜RSMÃ…L OM UTDANNING */
+/* SPØRSMÅL OM UTDANNING */
 .container-text-center{
     justify-items: center;
     text-align: center;
