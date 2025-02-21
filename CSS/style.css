@@ -820,35 +820,35 @@ a.more-stories{
     display: block;
 }
     
-/*SPÃ˜RSMÃ…L KNAPP*/
-.spÃ¸rsmÃ¥l-knapp {
+/* Spørsmålknapp KNAPP */
+.sporsmol-knapp {
     background: linear-gradient(to right, rgba(255, 231, 113, 0.956), rgba(153, 205, 50, 0.357));
     color: black;
     font-size: 1rem;
     text-align: center;
     margin-left: auto;
+    margin-top: 20px;
     padding: 10px 15px;
     border: none;
     border-radius: 33px;
     cursor: pointer;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.205);
-    margin-top: 20px;
 }
-    
-.fa-beat{
+
+.fa-beat {
     font-size: 0.875em;
-    color:rgb(0, 0, 0);
+    color: black;
 }
-    
-.vindu-popup{
+
+.vindu-popup,
+.tilbakemelding-popup {
     display: none;
 }
-    
-.tilbakemelding-popup{
-    background-color:rgb(255, 247, 207);
-    display: none;
+
+.tilbakemelding-popup {
+    background-color: rgb(255, 247, 207);
     position: fixed;
-    transform: translate(-16px,-8px);
+    transform: translate(-16px, -8px);
     padding: 20px;
     box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.205);
     border: 1px solid rgba(153, 205, 50, 0.357);
@@ -858,25 +858,24 @@ a.more-stories{
     max-width: 300px;
     z-index: 1000;
 }
-    
+
 .vindu-popup:checked ~ .tilbakemelding-popup {
     display: block;
 }
-    
-    
+
 .popup-innhold h2 {
-    color:black;
+    color: black;
     font-size: 1.125rem;
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
 }
-    
-.fa-thumbs-up,.fa-thumbs-down {
+
+.fa-thumbs-up, 
+.fa-thumbs-down {
     background-color: rgba(153, 205, 50, 0.357);
     color: black;
     display: flex;
     font-size: 1.5em;
-    border: 1px none;
+    border: none;
     border-radius: 50px;
     padding: 10px;
     cursor: pointer;
@@ -886,52 +885,43 @@ a.more-stories{
     transition: background-color 0.3s, transform 0.2s;
     transform: scale(1.1);
 }
-    
-.fa-thumbs-up:hover,.fa-thumbs-down:hover{
+
+.fa-thumbs-up:hover, 
+.fa-thumbs-down:hover {
     background-color: #ddd;
 }
-    
-.thumbs-checkbox{
+
+.thumbs-checkbox {
     display: none;
 }
-    
-.thumbs-up:checked + .fa-thumbs-up {
-    color:white;
-    background-color: rgba(44, 199, 30, 0.296);
-    box-shadow: 0px 2px 4px black;
-    transform: scale(1.0);
-}
-    
-.thumbs-up:checked ~ .thumbs-checkbox.thumbs-down:checked + .fa-thumbs-down{
-    background-color: black;
-    color:#ffd400
-}
-    
+
+.thumbs-up:checked + .fa-thumbs-up,
 .thumbs-down:checked + .fa-thumbs-down {
     background-color: rgba(44, 199, 30, 0.296);
-    transform: scale(1.0);
+    color: white;
     box-shadow: 0px 2px 4px black;
-    color:white;
+    transform: scale(1);
 }
-    
-.thumbs-down:checked ~ .thumbs-checkbox.thumbs-up:checked + .fa-thumbs-up{
+
+.thumbs-up:checked ~ .thumbs-checkbox.thumbs-down:checked + .fa-thumbs-down,
+.thumbs-down:checked ~ .thumbs-checkbox.thumbs-up:checked + .fa-thumbs-up {
     background-color: black;
-    color:#ffd400
+    color: #ffd400;
 }
-    
-.tilbakemelding-icon{
+
+.tilbakemelding-icon {
     display: flex;
     margin: 10px 0;
     font-size: 24px;
     justify-content: center;
     gap: 20px;
 }
-    
+
 .popup-innhold p {
     font-size: 0.875rem;
     margin: 10px 0;
 }
-    
+
 textarea {
     padding: 10px;
     margin: 10px 0;
@@ -940,8 +930,8 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 12px;
 }
-    
-.send-knapp{
+
+.send-knapp {
     width: 100px;
     background-color: black;
     color: #ffd400;
@@ -952,11 +942,11 @@ textarea {
     margin-bottom: 20px;
     transition: background-color 0.3s, transform 0.2s;
 }
-    
-.send-knapp:hover{
+
+.send-knapp:hover {
     background-color: #ddd;
 }
-    
+
 .lukke-link {
     display: block;
     color: black;
@@ -965,9 +955,8 @@ textarea {
     text-align: left;
     cursor: pointer;
 }
-    
-.lukke-knapp{
-    width: none;
+
+.lukke-knapp {
     color: black;
     display: block;
     border-radius: 0 0 5px 5px;
@@ -976,10 +965,11 @@ textarea {
     padding: 1px;
     cursor: pointer;
 }
-    
-.fa-xmark{
+
+.fa-xmark {
     font-size: 0.9375em;
 }
+
     
     
 /*FOOTER*/
