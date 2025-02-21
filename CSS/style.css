@@ -418,7 +418,7 @@ nav{
 }
     
     
-.setup{ /*er de individuelle studieoppbygnings boxene, gir de forskjellige stÃ¸rrelse og egenskaper*/
+.setup{ /*er de individuelle studieoppbygnings boxene, gir de forskjellige størrelse og egenskaper*/
     max-width: 275px;
     width: 275px;
     height: 70px;
@@ -432,7 +432,7 @@ nav{
     background-color: rgba(153, 205, 50, 0.138);
 }
 
-.id{/*innholdet i setup, stÃ¸rrelse, farge OSV*/
+.id{/*innholdet i setup, størrelse, farge OSV*/
     padding: 10px 10px;
     text-decoration: none;
     color: black;
