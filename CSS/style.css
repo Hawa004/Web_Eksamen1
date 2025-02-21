@@ -718,7 +718,7 @@ a.more-stories{
     background-color: rgba(153, 205, 50, 0.407);
 }
     
-/*faglig leder og spørsmål om utdanning*/
+/*faglig leder og spÃ¸rsmÃ¥l om utdanning*/
 .faglig-leder-og-spÃ¸rsmÃ¥l{
     display: flex;
     align-items: center;
@@ -1213,11 +1213,7 @@ header.parallax {
 }
 
 /* Hamburger Menu Variables */
-:root {
-    --primary-color: none;
-    --overlay-color: none;
-    --menu-speed: 0.75s;
-}
+
 
 /* Hamburger Menu Styles */
 .menu-wrap {
@@ -1298,7 +1294,7 @@ header.parallax {
 
 .menu-wrap .toggler:checked ~ .menu > div {
     transform: scale(1);
-    transition-duration: var(--menu-speed);
+    transition-duration:  0.75s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
