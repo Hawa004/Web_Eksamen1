@@ -3,7 +3,7 @@ function redirect(url) {
 }
 
 
-/*Activity page*/
+/*Sightseeing page*/
 
 // Lightbox functionality for images
 const lightbox = document.getElementById("lightbox");
