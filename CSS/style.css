@@ -719,7 +719,7 @@ a.more-stories{
 }
     
 /*faglig leder og spÃ¸rsmÃ¥l om utdanning*/
-.faglig-leder-og-spÃ¸rsmÃ¥l{
+.faglig-leder-og-sporsmal{
     display: flex;
     align-items: center;
     width: 100%;
@@ -1162,7 +1162,7 @@ ul li a:hover{
     font-weight: bold;
 }
 
-/* Accessibility */
+/*  Sight-seeing page */
 
 /* Global Styles */
 header h1 {
