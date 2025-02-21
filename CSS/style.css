@@ -820,8 +820,8 @@ a.more-stories{
     display: block;
 }
     
-/*SPÃ˜RSMÃ…L KNAPP*/
-.spÃ¸rsmÃ¥l-knapp {
+/*Spørsmålknapp KNAPP*/
+.sporsmol-knapp {
     background: linear-gradient(to right, rgba(255, 231, 113, 0.956), rgba(153, 205, 50, 0.357));
     color: black;
     font-size: 1rem;
